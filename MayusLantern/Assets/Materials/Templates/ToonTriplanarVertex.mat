@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - Texture2D_842DFA6D:
-        m_Texture: {fileID: 2800000, guid: 909acc6fe44a4079be3b8148f75d6850, type: 3}
+        m_Texture: {fileID: 2800000, guid: 814fe7ec64ce3aa4184cb8caf8aeb34c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseToonShading_C6B27512_Texture2D69D23EF1_3897341173:

@@ -29,8 +29,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Acceleration: 1.27
+    - _AlphaCutoff: 0.5
+    - _Alphaclip: 0.2
     - _Cutoff: 0.1
-    - _Height: 10
+    - _Height: 5
     - _HorizontalSpeed: 0
     - _ScaleWidth: -0.29
     - _ScaleX: 1
@@ -41,3 +43,4 @@ Material:
     m_Colors:
     - _Color0: {r: 0, g: 0.89569867, b: 0.990566, a: 1}
     - _Color1: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}

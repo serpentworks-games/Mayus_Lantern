@@ -103,7 +103,7 @@ Material:
     - _CoverageLevel: -0.23
     - _CoverageMetallic: 0
     - _CoverageSmoothnessMultiplier: 0.2
-    - _CoverageThickness: 0.028
+    - _CoverageThickness: 0.2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
