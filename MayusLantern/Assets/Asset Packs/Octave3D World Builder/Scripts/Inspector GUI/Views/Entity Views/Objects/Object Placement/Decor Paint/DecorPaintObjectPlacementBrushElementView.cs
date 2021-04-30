@@ -96,7 +96,8 @@ namespace O3DWB
 
         private void RenderIsElementEnabledToggle(Rect elementPreviewBoxRect)
         {
-            elementPreviewBoxRect.x += 2.0f;
+            elementPreviewBoxRect.x += 5.0f;
+            elementPreviewBoxRect.y -= elementPreviewBoxRect.height * 0.4f;
             bool newBool = GUI.Toggle(elementPreviewBoxRect, _brushElement.IsEnabled, GetContentForIsElementActiveToggle());
             if(newBool != _brushElement.IsEnabled)
             {

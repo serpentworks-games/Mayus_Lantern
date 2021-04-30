@@ -19,8 +19,6 @@ namespace O3DWB
         [SerializeField]
         private Camera _renderCamera;
         [SerializeField]
-        private RenderTexture _renderTexture;
-        [SerializeField]
         public Light[] _previewLights;
 
         public static PrefabPreviewGenerator Get() { return Octave3DWorldBuilder.ActiveInstance.PrefabPreviewGenerator; }
@@ -58,15 +56,17 @@ namespace O3DWB
         public Texture2D GeneratePreview(Prefab prefab)
         {
             if (prefab == null || prefab.UnityPrefab == null || !_isPreiewGenSessionActive) return null;
-            
+
+            RenderTexture renderTexture = GetRenderTexture();
+            if (renderTexture == null) return null;
+
             Camera renderCam = GetRenderCamera();
             renderCam.backgroundColor = _backgroundColor;
             renderCam.orthographic = false;
             renderCam.fieldOfView = 65.0f;
-            renderCam.targetTexture = GetRenderTexture();
+            renderCam.targetTexture = renderTexture;
             renderCam.clearFlags = CameraClearFlags.Color;
             renderCam.nearClipPlane = 0.0001f;
-            if (renderCam.targetTexture == null) return null;
 
             RenderTexture oldRenderTexture = UnityEngine.RenderTexture.active;
             RenderTexture.active = renderCam.targetTexture;
@@ -121,11 +121,14 @@ namespace O3DWB
             SetPreviewLightsActive(false);
 
             GameObject.DestroyImmediate(previewObjectRoot);
-            Texture2D previewTexture = new Texture2D(_previewWidth, _previewHeight, TextureFormat.ARGB32, true, PlayerSettings.colorSpace == ColorSpace.Linear);
+            Texture2D previewTexture = new Texture2D(_previewWidth, _previewHeight, TextureFormat.ARGB32, true, PlayerSettings.colorSpace != ColorSpace.Linear);
             previewTexture.ReadPixels(new Rect(0, 0, _previewWidth, _previewHeight), 0, 0);
             previewTexture.Apply();
             UnityEngine.RenderTexture.active = oldRenderTexture;
-       
+
+            renderCam.targetTexture = null;
+            RenderTexture.DestroyImmediate(renderTexture);
+
             return previewTexture;
         }
 
@@ -137,11 +140,11 @@ namespace O3DWB
                 GameObject.DestroyImmediate(_renderCamera.gameObject);
                 _renderCamera = null;
             }
-            if (_renderTexture != null)
+            /*if (_renderTexture != null)
             {
                 RenderTexture.DestroyImmediate(_renderTexture);
                 _renderTexture = null;
-            }
+            }*/
             DestroyPreviewLights();
         }
 
@@ -175,14 +178,24 @@ namespace O3DWB
 
         private RenderTexture GetRenderTexture()
         {
-            if(_renderTexture == null)
+            RenderTexture renderTexture = null;
+            if (PlayerSettings.colorSpace == ColorSpace.Linear) renderTexture = new RenderTexture(_previewWidth, _previewHeight, 24, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
+            else renderTexture = new RenderTexture(_previewWidth, _previewHeight, 24);
+
+            if (renderTexture == null) return null;
+            renderTexture.Create();
+            return renderTexture;
+
+            /*if (_renderTexture == null)
             {
-                _renderTexture = new RenderTexture(_previewWidth, _previewHeight, 24);
+                if (QualitySettings.activeColorSpace == ColorSpace.Linear) _renderTexture = new RenderTexture(_previewWidth, _previewHeight, 24, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
+                else _renderTexture = new RenderTexture(_previewWidth, _previewHeight, 24);
+
                 if (_renderTexture == null) return null;
                 _renderTexture.Create();
             }
 
-            return _renderTexture;
+            return _renderTexture;*/
         }
 
         private Light[] GetPreviewLights()

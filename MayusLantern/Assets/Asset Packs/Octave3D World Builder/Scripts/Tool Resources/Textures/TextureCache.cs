@@ -1,5 +1,6 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
+using UnityEditor;
 using System;
 using System.Collections.Generic;
 
@@ -46,7 +47,7 @@ namespace O3DWB
             Texture2D loadedTexture = ProjectAssetDatabase.LoadTextureAtPath(FileSystem.GetToolFolderName() + relativeTexturePath);
             if (loadedTexture != null)
             {
-                Texture2D clonedTexture = loadedTexture.Clone(true);
+                Texture2D clonedTexture = loadedTexture.Clone(PlayerSettings.colorSpace != ColorSpace.Linear);
                 _pathToTexture.Add(relativeTexturePath, clonedTexture);
 
                 return clonedTexture;

@@ -18,6 +18,8 @@ namespace O3DWB
         [SerializeField]
         private bool _showPrefabCategoryFolderNames = false;
         [SerializeField]
+        private bool _showHints = true;
+        [SerializeField]
         private int _maxNumberOfCategoryFolderNames = 10;
         [SerializeField]
         private string _nameForNewPrefabCategory = "";
@@ -41,6 +43,7 @@ namespace O3DWB
         #region Public Properties
         public PrefabMoveType PrefabMoveType { get { return _prefabMoveType; } set { _prefabMoveType = value; } }
         public bool ShowPrefabCategoryFolderNames { get { return _showPrefabCategoryFolderNames; } set { _showPrefabCategoryFolderNames = value; } }
+        public bool ShowHints { get { return _showHints; } set { _showHints = value; } }
         public int MaxNumberOfCategoryFolderNames { get { return _maxNumberOfCategoryFolderNames; } set { _maxNumberOfCategoryFolderNames = Mathf.Clamp(value, 1, 10); } }
         public string NameForNewPrefabCategory { get { return _nameForNewPrefabCategory; } set { if (value != null) _nameForNewPrefabCategory = value; } }
         public PrefabCategory DestinationCategoryForPrefabMove 

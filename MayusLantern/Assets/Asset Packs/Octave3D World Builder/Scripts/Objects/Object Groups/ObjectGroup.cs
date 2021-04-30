@@ -1,10 +1,8 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
-using System;
 
 namespace O3DWB
 {
-    [Serializable]
     public class ObjectGroup : ScriptableObject, INamedEntity
     {
         #region Private Variables

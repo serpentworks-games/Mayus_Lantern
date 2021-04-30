@@ -97,7 +97,11 @@ namespace O3DWB
 
         private MouseCursorRayHit GetCursorRayHit()
         {
-            MouseCursor.Instance.PushObjectPickMaskFlags(MouseCursorObjectPickFlags.ObjectTerrain | MouseCursorObjectPickFlags.ObjectMesh);
+            if (!ObjectSelection.Get().Settings.Object2ObjectSnapSettings.CanHoverObjects)
+                MouseCursor.Instance.PushObjectPickMaskFlags(MouseCursorObjectPickFlags.ObjectTerrain | MouseCursorObjectPickFlags.ObjectMesh | MouseCursorObjectPickFlags.ObjectBox | MouseCursorObjectPickFlags.ObjectSprite);
+            else
+                MouseCursor.Instance.PushObjectPickMaskFlags(MouseCursorObjectPickFlags.ObjectTerrain | MouseCursorObjectPickFlags.ObjectMesh);
+
             MouseCursor.Instance.PushObjectMask(_rayCastObjectMask);
             MouseCursorRayHit cursorRayHit = MouseCursor.Instance.GetRayHit();
             MouseCursor.Instance.PopObjectMask();

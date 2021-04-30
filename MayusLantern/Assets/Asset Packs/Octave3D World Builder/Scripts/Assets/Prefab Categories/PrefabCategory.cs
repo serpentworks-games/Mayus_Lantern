@@ -1,11 +1,9 @@
 ﻿#if UNITY_EDITOR
 using UnityEngine;
-using System;
 using System.Collections.Generic;
 
 namespace O3DWB
 {
-    [Serializable]
     public class PrefabCategory : ScriptableObject, INamedEntity
     {
         #region Private Variables
@@ -18,7 +16,7 @@ namespace O3DWB
         private List<string> _pathFolderNames = new List<string>();
 
         [SerializeField]
-        private ObjectGroup _objectGroup = null;
+        private ObjectGroup _objectGroup;
 
         [SerializeField]
         private string _name;

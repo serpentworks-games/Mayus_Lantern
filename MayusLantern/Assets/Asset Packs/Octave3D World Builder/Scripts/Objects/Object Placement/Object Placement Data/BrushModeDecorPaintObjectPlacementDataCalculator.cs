@@ -567,7 +567,15 @@ namespace O3DWB
 
             if (_workingBrushCircle.IsSittingOnObject)
             {
-                if(_workingBrush.IgnoreObjectsOutsideOfPaintSurface || _workingBrushCircle.IsSittingOnTerrain) _surfaceColliderProjector.ProjectPoint(position, out basePosition, out surfaceNormal);
+                if (_workingBrush.IgnoreObjectsOutsideOfPaintSurface || _workingBrushCircle.IsSittingOnTerrain)
+                {
+                    if (!_surfaceColliderProjector.ProjectPoint(position, out basePosition, out surfaceNormal))
+                    {
+                        Plane brushCirclePlane = _workingBrushCircle.Plane;
+                        basePosition = brushCirclePlane.ProjectPoint(position);
+                        surfaceNormal = brushCirclePlane.normal;
+                    }
+                }
                 else
                 {
                     bool wasProjected = _surfaceColliderProjector.ProjectPoint(position, out basePosition, out surfaceNormal);

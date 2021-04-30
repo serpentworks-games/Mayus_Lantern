@@ -105,7 +105,7 @@ Material:
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
     - _Color: {r: 1.0592737, g: 1.0592737, b: 1.0592737, a: 1}
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionColor: {r: 2.1618996, g: 8.333139, b: 3.687374, a: 1}
+    - _EmissionColor: {r: 5.4530334, g: 106.11556, b: 17.651348, a: 1}
     - _SoftParticleFadeParams: {r: 1, g: 0.25, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &5724875304568039534
@@ -120,4 +120,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 2
+  version: 4

@@ -11,6 +11,7 @@ namespace O3DWB
     {
         #region Private Constant Variables
         private const float _actionButtonScale = 0.8f;
+        private const float _categoryActionBtnSize = 155.0f;
         #endregion
 
         #region Private Variables
@@ -51,8 +52,24 @@ namespace O3DWB
         #region Protected Methods
         protected override void RenderContent()
         {
+            var content = new GUIContent();
+
             _prefabScrollView.PrefabCategory = PrefabCategoryDatabase.Get().ActivePrefabCategory;
+            EditorGUILayout.BeginHorizontal();
             RenderShowPrefabCategoryFolderNamesToggle();
+            RenderShowHintsToggle();
+            EditorGUILayout.EndHorizontal();
+
+            if (ViewData.ShowHints)
+            {
+                Octave3DWorldBuilder.ActiveInstance.ShowGUIHint("Note: When a config is loaded, the tool will use the prefab path to load the prefab back. If the prefab's path has changed (e.g. moved to " +
+                                    "a different folder, or changed the name of a folder inside the folder hierarchy, or changed the name of the prefab asset etc), the prefab will not be loaded.");
+                Octave3DWorldBuilder.ActiveInstance.ShowGUIHint("When a config is saved, all prefab categories (together with their prefabs) and prefab tags are saved. When a config is loaded, " +
+                                                          "all prefab categories and tags are removed and replaced with the ones which are loaded from the config file. Also, any missing object groups " +
+                                                          "referenced by prefab categories, will automatically be created on load.");
+                EditorGUILayout.HelpBox("You can right click inside the prefab management window to bring up a context menu that will allow you to manage prefabs and prefab categories (e.g. remove, clear etc).", UnityEditor.MessageType.Warning);
+            }
+
             if (ViewData.ShowPrefabCategoryFolderNames) RenderMaxNumberOfCategoryFolderNamesToggle();
             RenderActiveCategorySelectionPopup();
             RenderActiveCategoryNameChangeTextField();
@@ -64,22 +81,13 @@ namespace O3DWB
             RenderCreateNewCategoryControls();
             EditorGUILayout.EndHorizontal();
 
-            Octave3DWorldBuilder.ActiveInstance.ShowGUIHint("Note: When a config is loaded, the tool will use the prefab path to load the prefab back. If the prefab's path has changed (e.g. moved to " + 
-                "a different folder, or changed the name of a folder inside the folder hierarchy, or changed the name of the prefab asset etc), the prefab will not be loaded.");
-            Octave3DWorldBuilder.ActiveInstance.ShowGUIHint("When a config is saved, all prefab categories (together with their prefabs) and prefab tags are saved. When a config is loaded, " +
-                                                      "all prefab categories and tags are removed and replaced with the ones which are loaded from the config file. Also, any missing object groups " + 
-                                                      "referenced by prefab categories, will automatically be created on load.");
-
-            EditorGUILayout.HelpBox("You can right click inside the prefab management window to bring up a context menu that will allow you to manage prefabs and prefab categories (e.g. remove, clear etc).", UnityEditor.MessageType.Warning);
-
             EditorGUILayout.BeginHorizontal();
             RenderSavePrefabConfigButton();
             RenderLoadPrefabConfigButton();
 
-            var content = new GUIContent();
             content.text = "Look and feel...";
             content.tooltip = "Opens up a new window which allows you to control the look and feel of the prefab view area.";
-            if(GUILayout.Button(content, GUILayout.Width(110.0f)))
+            if(GUILayout.Button(content, GUILayout.Width(_categoryActionBtnSize)))
             {
                 _prefabScrollView.LookAndFeelWindow.ShowOctave3DWindow();
             }
@@ -99,11 +107,26 @@ namespace O3DWB
                               "to include the names of the folders which appear in the source/dropped folder path. Folders appear from " + 
                               "left to right starting from the bottom most folder in the hierarchy.";
 
-            bool newBool = EditorGUILayout.ToggleLeft(content, ViewData.ShowPrefabCategoryFolderNames);
+            bool newBool = EditorGUILayout.ToggleLeft(content, ViewData.ShowPrefabCategoryFolderNames, GUILayout.Width(250.0f));
             if(newBool != ViewData.ShowPrefabCategoryFolderNames)
             {
                 UndoEx.RecordForToolAction(ViewData);
                 ViewData.ShowPrefabCategoryFolderNames = newBool;
+            }
+        }
+
+        private void RenderShowHintsToggle()
+        {
+            var content = new GUIContent();
+            content.text = "Show hints";
+            content.tooltip = "Show/hide hints.";
+
+            EditorGUI.BeginChangeCheck();
+            bool val = EditorGUILayout.ToggleLeft(content, ViewData.ShowHints);
+            if (EditorGUI.EndChangeCheck())
+            {
+                UndoEx.RecordForToolAction(ViewData);
+                ViewData.ShowHints = val;
             }
         }
 
@@ -250,7 +273,7 @@ namespace O3DWB
 
         private void RenderPrefabsToActiveCategoryDropOperationSettingsButton()
         {
-            if (GUILayout.Button(GetContentForPrefabsToActiveCategoryDropOperationSettingsButton(), GUILayout.Width(143.0f)))
+            if (GUILayout.Button(GetContentForPrefabsToActiveCategoryDropOperationSettingsButton(), GUILayout.Width(_categoryActionBtnSize)))
             {
                 PrefabsToCategoryDropSettingsWindow.Get().ShowOctave3DWindow();
             }
@@ -267,7 +290,7 @@ namespace O3DWB
 
         private void RenderSavePrefabConfigButton()
         {
-            if (GUILayout.Button(GetContentForSavePrefabConfigButton(), GUILayout.Width(EditorGUILayoutEx.PreferedActionButtonWidth * 0.65f)))
+            if (GUILayout.Button(GetContentForSavePrefabConfigButton(), GUILayout.Width(_categoryActionBtnSize)))
             {
                 string fileName = EditorUtility.SaveFilePanel("Save Prefab Config", ViewData.PrefabConfigSaveDir, "", "pcfg");
                 if(!string.IsNullOrEmpty(fileName))
@@ -290,7 +313,7 @@ namespace O3DWB
 
         private void RenderLoadPrefabConfigButton()
         {
-            if (GUILayout.Button(GetContentForLoadPrefabConfigButton(), GUILayout.Width(EditorGUILayoutEx.PreferedActionButtonWidth * 0.65f)))
+            if (GUILayout.Button(GetContentForLoadPrefabConfigButton(), GUILayout.Width(_categoryActionBtnSize)))
             {
                 string fileName = EditorUtility.OpenFilePanel("Load Prefab Config", ViewData.PrefabConfigLoadDir, "pcfg");
                 if (!string.IsNullOrEmpty(fileName))
@@ -402,7 +425,7 @@ namespace O3DWB
 
         private void RenderCreateNewCategoryButton()
         {
-            if (GUILayout.Button(GetContentForCreateNewCategoryButton(), GUILayout.Width(143.0f)))
+            if (GUILayout.Button(GetContentForCreateNewCategoryButton(), GUILayout.Width(_categoryActionBtnSize)))
             {
                 PrefabCategoryDatabase prefabCategoryDatabase = PrefabCategoryDatabase.Get();
                 UndoEx.RecordForToolAction(prefabCategoryDatabase);

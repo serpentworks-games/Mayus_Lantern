@@ -1,3 +1,17 @@
+V 2.4.3.3
+[Bug fix]	  : Prefab previews and UI icons no longer appear washed out when using Linear color space;
+
+V 2.4.3.2
+[New feature] : Implemented 'Show hints' toggle in the prefab manager window which can be used
+				to show/hide hint messages;
+
+[Improvement] : Prefab manager hint messages moved to the top;
+
+[Bug Fix]	  : Fixed bug which was throwing exception when using the brush placement tool;
+[Bug Fix]	  : Fixed bug which was misplacing the Brush element prefab toggle button;
+[Bug Fix]	  : Fixed bug which was ignoring the object-to-objetc snap 'Can hover objects'
+			    field in the ObjectSelection mode UI;
+
 V 2.4.3.1
 [Bug Fix]	  : fixed ALT + D command messing with other hotkeys;
 
