@@ -903,3 +903,4 @@ Received Import Request.
 Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/EntityLighting.hlsl using Guid(0303be75670325342b4bf5697686e77b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2887a2a3da07aa7bb180de289da051') in 0.005181 seconds
   Import took 0.016158 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
