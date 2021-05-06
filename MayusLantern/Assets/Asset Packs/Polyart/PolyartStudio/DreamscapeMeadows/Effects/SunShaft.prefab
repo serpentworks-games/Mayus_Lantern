@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 753590270913079225}
   - component: {fileID: 1390535710733781654}
   m_Layer: 0
-  m_Name: SunShaft
+  m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4705,11 +4705,10 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3f23036e9c2a187479154648be104fd6, type: 2}
+  - {fileID: 2100000, guid: f940061b2c24fa54e98b400464041ae6, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
