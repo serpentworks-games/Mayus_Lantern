@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: ToonDissolve
-  m_Shader: {fileID: -6465566751694194690, guid: cc3bedb945668f341992e5a950e70695, type: 3}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 07fb0688dc93ba841a2a0013daa694a0, type: 3}
+  m_ShaderKeywords: INVERT
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -27,6 +27,14 @@ Material:
         m_Texture: {fileID: 2800000, guid: d8ebc419e7e389646848ffff665148b2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - BOOLEAN_64DDEF61: 0
     - Vector1_27954838: 0.024
@@ -40,10 +48,24 @@ Material:
     - Vector1_C1D1BCD2: 1.28
     - Vector1_CF901545: 0.14
     - Vector1_E581FCD9: 0.3
+    - _Brightness: 10
+    - _Cutoff: 0.5
     - _DisAmount: -0.02
+    - _DisplacementWidth: 0.3
+    - _DissolveColorWidth: 0.01
+    - _HeightScale: 0
+    - _INVERT: 1
+    - _LOCAL: 0
+    - _Offset: 0.7
+    - _OffsetT: 0.5
+    - _Scale: 1
+    - _ScaleV: 0.1
+    - _Smoothness: 0.05
     m_Colors:
     - Color_562B4B81: {r: 1, g: 1, b: 1, a: 0}
     - Color_C86729E3: {r: 0.5019608, g: 1, b: 0.8627452, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DisColor: {r: 1, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &2874830393207494542
 MonoBehaviour:
