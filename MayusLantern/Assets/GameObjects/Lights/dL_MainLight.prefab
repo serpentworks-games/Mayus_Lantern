@@ -103,7 +103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8824327113059758418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9be5cb58cf57b3c47949b04e2cbd98a8, type: 3}
+  m_Script: {fileID: 11500000, guid: 20879409e888a394994725595b938c12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   shadowTexName: _DirectionalShadowMap
