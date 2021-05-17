@@ -1,39 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &3940113757348162042
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4837656495614123099}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_ShowDebugText: 0
-  m_ShowCameraFrustum: 1
-  m_IgnoreTimeScale: 0
-  m_WorldUpOverride: {fileID: 0}
-  m_UpdateMethod: 2
-  m_BlendUpdateMethod: 1
-  m_DefaultBlend:
-    m_Style: 1
-    m_Time: 2
-    m_CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  m_CustomBlends: {fileID: 0}
-  m_CameraCutEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_CameraActivatedEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1 &7673415144994650761
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,11 +151,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
---- !u!1 &4837656495614123099 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2702342631266364246, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
-  m_PrefabInstance: {fileID: 7395588701477566221}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4837656495614123096 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2702342631266364245, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
