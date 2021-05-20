@@ -9,12 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7170605312613720748}
+  - component: {fileID: 6740771469401503411}
   - component: {fileID: 8794183603848779092}
   - component: {fileID: 2427143078199413760}
   - component: {fileID: 3499816923306096}
   - component: {fileID: 8541346501730388094}
   - component: {fileID: 7081348157225877253}
-  m_Layer: 0
+  m_Layer: 23
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -36,6 +37,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!95 &6740771469401503411
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6393339288268161085}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!136 &8794183603848779092
 CapsuleCollider:
   m_ObjectHideFlags: 0

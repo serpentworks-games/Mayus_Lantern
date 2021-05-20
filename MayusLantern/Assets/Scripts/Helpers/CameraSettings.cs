@@ -3,7 +3,7 @@ namespace ML.Helpers
     using System;
     using Cinemachine;
     using UnityEngine;
-    using ML.Core;
+    using ML.Player;
 
     public class CameraSettings : MonoBehaviour
     {
@@ -56,8 +56,8 @@ namespace ML.Helpers
 
                 lookAt = follow.Find("HeadTarget");
 
-                if (playerController.CameraSettings == null)
-                    playerController.CameraSettings = this;
+                if (playerController.cameraSettings == null)
+                    playerController.cameraSettings = this;
             }
         }
 

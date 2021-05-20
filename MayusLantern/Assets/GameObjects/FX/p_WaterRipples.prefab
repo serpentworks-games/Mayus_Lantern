@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5430350792225945390}
   - component: {fileID: 5430350792225945376}
   - component: {fileID: 5430350792225945377}
-  m_Layer: 8
+  m_Layer: 6
   m_Name: p_WaterRipples
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - FlythroughCam
   layers:
   - Default
   - TransparentFX
@@ -13,30 +14,30 @@ TagManager:
   - UI
   - Ripples
   - SnowPath
+  - Skybox
+  - Player
+  - PostProcessing
+  - SetDressing
+  - 
+  - 
+  - Vehicles
+  - NavMesh
   - Environment
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Characters
+  - Vegetation
+  - Effects
+  - Ragdoll
+  - WaterGeom
+  - Terrain
+  - Enemies
+  - Cameras
+  - Props
+  - Avoid
+  - CamCollider
+  - Collider
+  - Checkpoint
+  - DoNotDraw
+  - Level
   m_SortingLayers:
   - name: Default
     uniqueID: 0

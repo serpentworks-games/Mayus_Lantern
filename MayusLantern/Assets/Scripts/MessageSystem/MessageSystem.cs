@@ -1,4 +1,4 @@
-namespace ML.Core
+namespace ML.MessageSystem
 {
     public enum MessageType
     {

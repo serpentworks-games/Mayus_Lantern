@@ -1,7 +1,7 @@
 namespace ML.DamageSystem
 {
     using UnityEngine;
-    using ML.Core;
+    using ML.Player;
 
     [RequireComponent(typeof(Collider))]
     public class DeathVolume : MonoBehaviour

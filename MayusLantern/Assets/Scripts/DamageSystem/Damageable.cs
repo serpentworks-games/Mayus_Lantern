@@ -5,6 +5,7 @@ namespace ML.DamageSystem
     using UnityEngine.Events;
     using System.Collections.Generic;
     using ML.Utils;
+    using ML.MessageSystem;
 
     public class Damageable : MonoBehaviour
     {
@@ -72,7 +73,7 @@ namespace ML.DamageSystem
         /// <summary>
         /// Resets values to default when damage is reset
         /// </summary>
-        void ResetDamage()
+        public void ResetDamage()
         {
             currentHP = maxHitPoints;
             isInvulnerable = false;

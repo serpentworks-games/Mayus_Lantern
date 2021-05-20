@@ -1,10 +1,10 @@
 using UnityEngine;
 
-namespace ML.Core
+namespace ML.Player
 {
-    public class PlayerAnimHash
+    public class PlayerAnimHash : MonoBehaviour
     {
-        public readonly int m_HashAirborneVerticalSpeed = Animator.StringToHash("AirbourneVerticalSpeed");
+        public readonly int m_HashAirborneVerticalSpeed = Animator.StringToHash("AirborneVerticalSpeed");
         public readonly int m_HashForwardSpeed = Animator.StringToHash("ForwardSpeed");
         public readonly int m_HashAngleDeltaRad = Animator.StringToHash("AngleDeltaRad");
         public readonly int m_HashTimeoutToIdle = Animator.StringToHash("TimeoutToIdle");
@@ -21,7 +21,7 @@ namespace ML.Core
 
         //States
         public readonly int m_HashLocomotion = Animator.StringToHash("Locomotion");
-        public readonly int m_HashAirborne = Animator.StringToHash("Airborne");
+        public readonly int m_HashAirborne = Animator.StringToHash("Airbourne");
         public readonly int m_HashLanding = Animator.StringToHash("Landing"); //Also a paramn
         public readonly int m_HashMayuCombo1 = Animator.StringToHash("MayuCombo1");
         public readonly int m_HashMayuDeath = Animator.StringToHash("MayuDeath");

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1741604705577350909}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: fx_Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,6 +88,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p_FireSpecks
       objectReference: {fileID: 0}
+    - target: {fileID: 7529583539265260809, guid: b780a0aa1e023be44b053a4acf46a8bf, type: 3}
+      propertyPath: m_Layer
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b780a0aa1e023be44b053a4acf46a8bf, type: 3}
 --- !u!1001 &1741604705208429726
@@ -100,6 +104,10 @@ PrefabInstance:
     - target: {fileID: 3660057888667450193, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
       propertyPath: m_Name
       value: p_Mask_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660057888667450193, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
+      propertyPath: m_Layer
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4476529161953498847, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
       propertyPath: m_RootOrder
@@ -194,6 +202,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: p_ParticleFire
       objectReference: {fileID: 0}
+    - target: {fileID: 7764351614278084632, guid: 6a06773a1210f044db32a98f929bfb71, type: 3}
+      propertyPath: m_Layer
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6a06773a1210f044db32a98f929bfb71, type: 3}
 --- !u!4 &4806411983080522640 stripped
@@ -256,6 +268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pL_Fire
       objectReference: {fileID: 0}
+    - target: {fileID: 7773239941174158003, guid: edc88233d3d64c043b4219e13e355d66, type: 3}
+      propertyPath: m_Layer
+      value: 19
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edc88233d3d64c043b4219e13e355d66, type: 3}
 --- !u!4 &6533132708743898715 stripped
@@ -273,6 +289,10 @@ PrefabInstance:
     - target: {fileID: 3313938242036199632, guid: afbf303ab3141c846b201427aafe4ac3, type: 3}
       propertyPath: m_Name
       value: p_Fire_CenterGlow
+      objectReference: {fileID: 0}
+    - target: {fileID: 3313938242036199632, guid: afbf303ab3141c846b201427aafe4ac3, type: 3}
+      propertyPath: m_Layer
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 3465636927465070448, guid: afbf303ab3141c846b201427aafe4ac3, type: 3}
       propertyPath: m_RootOrder
@@ -330,6 +350,10 @@ PrefabInstance:
     - target: {fileID: 3660057888667450193, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
       propertyPath: m_Name
       value: p_Mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660057888667450193, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
+      propertyPath: m_Layer
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4476529161953498847, guid: 6d71a61e7db7f5449a34294d92251878, type: 3}
       propertyPath: m_RootOrder
@@ -423,6 +447,10 @@ PrefabInstance:
     - target: {fileID: 6403965501721483295, guid: b0cd1747ff4b59f489b7619e1fba8196, type: 3}
       propertyPath: m_Name
       value: p_HeatDistortion
+      objectReference: {fileID: 0}
+    - target: {fileID: 6403965501721483295, guid: b0cd1747ff4b59f489b7619e1fba8196, type: 3}
+      propertyPath: m_Layer
+      value: 19
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b0cd1747ff4b59f489b7619e1fba8196, type: 3}

@@ -3,6 +3,7 @@ namespace ML.Enemies
     using UnityEngine;
     using ML.Core;
     using UnityEditor;
+    using ML.Player;
 
     [System.Serializable]
     public class TargetScanner

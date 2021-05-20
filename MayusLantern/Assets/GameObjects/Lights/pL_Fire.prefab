@@ -103,8 +103,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 7773239941174158003}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c13f6a9a8e869d34ea3200dd51b28cab, type: 3}
+  m_Script: {fileID: 11500000, guid: d3fdfd37b538fdb46b1047890fda8a7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minIntensity: 4
-  maxIntensity: 8
+  minIntensity: 2
+  maxIntensity: 4

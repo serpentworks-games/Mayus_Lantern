@@ -1,4 +1,4 @@
-namespace ML.Core
+namespace ML.Player
 {
     using UnityEngine;
     using System.Collections;

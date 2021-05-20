@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6027007171086845240}
   - component: {fileID: 8336109170300989397}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: fx_DecalProjector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,10 +40,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 811059606938845319}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3880aa1c1106146be9370703b23206, type: 3}
+  m_Script: {fileID: 11500000, guid: 3a5b9e36c8d5bc744af54ad222b5852c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 2100000, guid: 5fb38d116019e224fa1d03016348c341, type: 2}
+  m_Material: {fileID: 0}
   texture: {fileID: 0}
   tinting: {r: 1, g: 1, b: 1, a: 1}
-  m_CubeMesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_CubeMesh: {fileID: 0}

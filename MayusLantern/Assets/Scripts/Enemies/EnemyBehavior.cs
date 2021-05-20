@@ -1,9 +1,12 @@
-namespace ML.Enemies {
+namespace ML.Enemies
+{
     using UnityEngine;
-    using ML.Core;
+    using ML.Player;
+    using ML.MessageSystem;
 
     [DefaultExecutionOrder(100)]
-    public class EnemyBehavior : MonoBehaviour, IMessageReceiver {
+    public class EnemyBehavior : MonoBehaviour, IMessageReceiver
+    {
         public TargetScanner playerScanner;
 
         public PlayerController target { get { return m_Target; } }
@@ -17,7 +20,8 @@ namespace ML.Enemies {
             Debug.Log("Message Received!");
         }
 
-        private void OnDrawGizmos() {
+        private void OnDrawGizmos()
+        {
             playerScanner.EditorGizmo(transform);
         }
     }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2608811466229868240}
   - component: {fileID: 740590743739960376}
   - component: {fileID: 3565182088883758239}
-  m_Layer: 0
+  m_Layer: 28
   m_Name: InteractOnCollision
   m_TagString: Untagged
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
