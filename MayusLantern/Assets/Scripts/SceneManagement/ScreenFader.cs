@@ -4,6 +4,9 @@ namespace ML.SceneManagement
 
     public class ScreenFader : MonoBehaviour
     {
-
+        public enum FadeType
+        {
+            Black, Loading, GameOver,
+        }
     }
 }
