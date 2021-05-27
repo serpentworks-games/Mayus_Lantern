@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 0
@@ -257,7 +257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 0
@@ -383,7 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -582,7 +582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 0
@@ -839,7 +839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
@@ -980,7 +980,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 10
+    m_MaxSpeed: 20
     m_AccelTime: 0.5
     m_DecelTime: 0.1
     m_InputAxisName: CameraY
@@ -1004,12 +1004,12 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 500
+    m_MaxSpeed: 1500
     m_AccelTime: 0.2
     m_DecelTime: 0.05
     m_InputAxisName: CameraX
     m_InputAxisValue: 0
-    m_InvertInput: 0
+    m_InvertInput: 1
     m_MinValue: -180
     m_MaxValue: 180
     m_Wrap: 1
@@ -1032,12 +1032,12 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0
   m_Orbits:
-  - m_Height: 3.5
-    m_Radius: 3
-  - m_Height: 1.81
-    m_Radius: 4
-  - m_Height: 0.4
-    m_Radius: 2.5
+  - m_Height: 5
+    m_Radius: 7
+  - m_Height: 3
+    m_Radius: 5
+  - m_Height: 1
+    m_Radius: 1.5
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 2330291770042162419}
@@ -1146,7 +1146,7 @@ MonoBehaviour:
   m_YAxis:
     Value: 0.5
     m_SpeedMode: 0
-    m_MaxSpeed: 10
+    m_MaxSpeed: 20
     m_AccelTime: 0.5
     m_DecelTime: 0.1
     m_InputAxisName: CameraY
@@ -1170,7 +1170,7 @@ MonoBehaviour:
   m_XAxis:
     Value: 0
     m_SpeedMode: 0
-    m_MaxSpeed: 500
+    m_MaxSpeed: 1500
     m_AccelTime: 0.2
     m_DecelTime: 0.05
     m_InputAxisName: CameraX
@@ -1198,12 +1198,12 @@ MonoBehaviour:
   m_BindingMode: 4
   m_SplineCurvature: 0
   m_Orbits:
-  - m_Height: 3.5
-    m_Radius: 3
-  - m_Height: 1.81
-    m_Radius: 4
-  - m_Height: 0.4
-    m_Radius: 2.5
+  - m_Height: 5
+    m_Radius: 7
+  - m_Height: 3
+    m_Radius: 5
+  - m_Height: 1
+    m_Radius: 1.5
   m_LegacyHeadingBias: 3.4028235e+38
   m_Rigs:
   - {fileID: 5470918564339860818}
@@ -1297,7 +1297,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BindingMode: 4
-  m_FollowOffset: {x: 0, y: 1.81, z: -4}
+  m_FollowOffset: {x: 0, y: 3, z: -5}
   m_XDamping: 0
   m_YDamping: 0
   m_ZDamping: 0

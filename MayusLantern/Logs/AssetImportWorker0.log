@@ -15,11 +15,11 @@ E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54447
+58365
 Successfully changed project path to: E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 76.74 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.43 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,71 +35,2069 @@ Initialize mono
 Mono path[0] = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001052 seconds.
+Registered in 0.001115 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 74.59 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 72.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.728 seconds
+- Completed reload, in  0.730 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000875 seconds.
+Registered in 0.000846 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.785 seconds
+- Completed reload, in  0.753 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2814 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 235.5 MB.
-System memory in use after: 233.8 MB.
+Unloading 2821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.3 MB.
+System memory in use after: 233.6 MB.
 
-Unloading 136 unused Assets to reduce memory usage. Loaded Objects now: 3256.
-Total: 3.157400 ms (FindLiveObjects: 0.345100 ms CreateObjectMapping: 0.140500 ms MarkObjects: 1.499800 ms  DeleteObjects: 1.170200 ms)
+Unloading 118 unused Assets to reduce memory usage. Loaded Objects now: 3263.
+Total: 4.590600 ms (FindLiveObjects: 0.619900 ms CreateObjectMapping: 0.332300 ms MarkObjects: 2.048600 ms  DeleteObjects: 1.588300 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/Player/Checkpoint.cs
-  artifactKey: Guid(d6da90d0484bd8d42a200be250c12652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player/Checkpoint.cs using Guid(d6da90d0484bd8d42a200be250c12652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b74b09a7d94f9069c4afce26ba23b') in 0.030682 seconds
-  Import took 0.034823 seconds .
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e79e5a4d7f5797c54e9d9822628f54') in 0.155628 seconds
+  Import took 0.160659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.746606 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef091182967c000ad76bcf78723de71d') in 0.036865 seconds
+  Import took 0.046589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu_Texture.mat
+  artifactKey: Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu_Texture.mat using Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02e3e43d80d300771ee41a5d50c6e45') in 0.018194 seconds
+  Import took 0.022137 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu_Cloak_lambert5.mat
+  artifactKey: Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu_Cloak_lambert5.mat using Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b63c0a7bcb49eaf6dea09fb21eb963') in 0.007524 seconds
+  Import took 0.016421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef091182967c000ad76bcf78723de71d') in 0.018533 seconds
+  Import took 0.022422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Assets/Characters/Mayu/lambert12.mat
+  artifactKey: Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/lambert12.mat using Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4834dd2d84d4efdf60c1a285a9d76d08') in 0.007481 seconds
+  Import took 0.011242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Assets/Characters/Mayu/lambert6.mat
+  artifactKey: Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/lambert6.mat using Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3786fad2680fdb74ecc00dbb3ef243') in 0.006975 seconds
+  Import took 0.010534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.866498 seconds.
+  path: Assets/Assets/Characters/Mayu/claok texture.jpg
+  artifactKey: Guid(398be0d0524cfde40a0d7b627cdd021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/claok texture.jpg using Guid(398be0d0524cfde40a0d7b627cdd021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1d0027b1e10f0e07c549bb52d24aee') in 0.018583 seconds
+  Import took 0.028001 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu Mouth.tif
+  artifactKey: Guid(359f027c2f8990746b923ddd642e34f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu Mouth.tif using Guid(359f027c2f8990746b923ddd642e34f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba15b7c03d7eb5915e0decf430c8ee0') in 0.009582 seconds
+  Import took 0.018287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu texture v3.jpg
+  artifactKey: Guid(b67e5c086e9dd1644aef3ce44fc3c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu texture v3.jpg using Guid(b67e5c086e9dd1644aef3ce44fc3c9cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '469967b9ff91dd44f05662d2c935dcd4') in 0.009229 seconds
+  Import took 0.013074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b9f190ca693528cddb02d79dfd901d') in 0.019381 seconds
+  Import took 0.023514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Assets/Characters/Mayu/claok texture.jpg
+  artifactKey: Guid(398be0d0524cfde40a0d7b627cdd021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/claok texture.jpg using Guid(398be0d0524cfde40a0d7b627cdd021e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1d0027b1e10f0e07c549bb52d24aee') in 0.013967 seconds
+  Import took 0.017578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.352696 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuMainMat.mat
+  artifactKey: Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuMainMat.mat using Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '217969129d12f9f03c5f10d7dd97d01c') in 0.009961 seconds
+  Import took 0.019380 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.342865 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuCloak.mat
+  artifactKey: Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuCloak.mat using Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488a43d1bb8e75c58ea46dfaf3ae6c8e') in 0.007801 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.458333 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuMain.mat
+  artifactKey: Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuMain.mat using Guid(16dd28f8d57c6e947880544f99a656c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59291e9b93a61d10fddd785317a76cf') in 0.009209 seconds
+  Import took 0.013354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.732887 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuMouth.mat
+  artifactKey: Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuMouth.mat using Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78374de1d9fba749e5ab9721a4b5fba2') in 0.014332 seconds
+  Import took 0.018308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.579051 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuEyes.mat
+  artifactKey: Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuEyes.mat using Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc74915ed5a335eb3e52188e06fb703f') in 0.010727 seconds
+  Import took 0.019985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.366839 seconds.
+  path: Assets/Assets/Characters/Mayu/m_MayuMouth.mat
+  artifactKey: Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/m_MayuMouth.mat using Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b07c59bc609098455b57d163057baa') in 0.010198 seconds
+  Import took 0.014273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1053.118910 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2833b246cd96664d351bf77aff4138a') in 0.010757 seconds
+  Import took 0.015773 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002163 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2833b246cd96664d351bf77aff4138a') in 0.006821 seconds
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.075869 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82c0748949f4f17a2441f416e8d9f76') in 0.018766 seconds
+  Import took 0.023210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002576 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f82c0748949f4f17a2441f416e8d9f76') in 0.011313 seconds
+  Import took 0.015516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.219235 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1690ddb1c807979203e6b96128577') in 0.010570 seconds
+  Import took 0.014709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001123 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu eye texture.jpg
+  artifactKey: Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu eye texture.jpg using Guid(b50af248ceb3f1e48bd852530fb1e7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe1690ddb1c807979203e6b96128577') in 0.005961 seconds
+  Import took 0.010333 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000940 seconds.
+Registered in 0.000988 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.775 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2635 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.2 MB.
-System memory in use after: 216.5 MB.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 221.8 MB.
+System memory in use after: 220.1 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3261.
-Total: 3.579200 ms (FindLiveObjects: 0.327500 ms CreateObjectMapping: 0.150100 ms MarkObjects: 1.783500 ms  DeleteObjects: 1.317000 ms)
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3311.
+Total: 3.448200 ms (FindLiveObjects: 0.524100 ms CreateObjectMapping: 0.223300 ms MarkObjects: 1.516200 ms  DeleteObjects: 1.183300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 8888.927130 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac68ba01f92c209141c7f7a960947503') in 0.183797 seconds
+  Import took 0.188883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 130.628393 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58aa2f93f30568b709dab725833ed5b') in 0.052766 seconds
+  Import took 0.057855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.076917 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9492dfed6db899b754d26a63de346bd8') in 0.051218 seconds
+  Import took 0.056362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.481475 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed976c79772c6d4a66276cf22933acbb') in 0.043881 seconds
+  Import took 0.048883 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 344.018608 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f656cc8774c7f8831122f30e019f4') in 0.043324 seconds
+  Import took 0.048880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Assets/Characters/Mayu/T-Pose_Updated@Running.fbx
+  artifactKey: Guid(4e9d8d0f28995694e9594146207cc872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/T-Pose_Updated@Running.fbx using Guid(4e9d8d0f28995694e9594146207cc872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5f27da81528cfcc30f4cd736124a68') in 0.049219 seconds
+  Import took 0.054275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1231.780215 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/cover to stand (2).fbx
+  artifactKey: Guid(4373939a02cbac048bbbf299b2a9ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/cover to stand (2).fbx using Guid(4373939a02cbac048bbbf299b2a9ddcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ed866b613595a31966a563e9767a6f') in 0.008460 seconds
+  Import took 0.018590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/cover to stand.fbx
+  artifactKey: Guid(39d631d72aadc444ab08da436ff7680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/cover to stand.fbx using Guid(39d631d72aadc444ab08da436ff7680b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6571716512b415b7ad584011bdb74e') in 0.007140 seconds
+  Import took 0.011051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (2).fbx
+  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (2).fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a605a73cc9a7be0d212e00661014e4bf') in 0.007275 seconds
+  Import took 0.011763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/run to stop.fbx
+  artifactKey: Guid(40920a76eac147e4b85d807bfb604794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/run to stop.fbx using Guid(40920a76eac147e4b85d807bfb604794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5f367c4baeb0a8e86b71dd8f00729d') in 0.007194 seconds
+  Import took 0.016418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/running.fbx
+  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/running.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f76b8cc2e9b9cfcc13098d077f4419e') in 0.007976 seconds
+  Import took 0.011830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (3).fbx
+  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (3).fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e766ac9a9114db0e1377a65e2af15a') in 0.007531 seconds
+  Import took 0.011594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle.fbx
+  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e2b0553b4d0ac331e2add0e698552cc') in 0.007076 seconds
+  Import took 0.010831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (4).fbx
+  artifactKey: Guid(8f007a9356269374dbd562656e6f3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (4).fbx using Guid(8f007a9356269374dbd562656e6f3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a2b30f6b15f587575a3586bb6d27fa') in 0.006551 seconds
+  Import took 0.010319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/right turn.fbx
+  artifactKey: Guid(fffc0b036be7a61419a9c3a9d6fb86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/right turn.fbx using Guid(fffc0b036be7a61419a9c3a9d6fb86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8af3a85c504edadad0ffa8d10ed09dc') in 0.006381 seconds
+  Import took 0.009966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/falling to roll.fbx
+  artifactKey: Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/falling to roll.fbx using Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5006ddbe9bcd66ad3a21f497e43824') in 0.006774 seconds
+  Import took 0.010521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/left cover sneak.fbx
+  artifactKey: Guid(958fc0882a5104647b69a72fa8864294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/left cover sneak.fbx using Guid(958fc0882a5104647b69a72fa8864294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9de91d32e25601497d6938bf99b6b4') in 0.006425 seconds
+  Import took 0.010154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/crouched sneaking left.fbx
+  artifactKey: Guid(db2691b0743aa0645a371719969de73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/crouched sneaking left.fbx using Guid(db2691b0743aa0645a371719969de73f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65215cdf8f18f9caccaa2e7c72da08dc') in 0.011825 seconds
+  Import took 0.015608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/jumping up.fbx
+  artifactKey: Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/jumping up.fbx using Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e794bc0ae4b82bcd58406f04de8c28b1') in 0.006520 seconds
+  Import took 0.010151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/walking.fbx
+  artifactKey: Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/walking.fbx using Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf9198cf4977251a375d516502d3a95') in 0.006609 seconds
+  Import took 0.010519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/right cover sneak.fbx
+  artifactKey: Guid(754db0dfc3b4dcf4a8216cff8e998a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/right cover sneak.fbx using Guid(754db0dfc3b4dcf4a8216cff8e998a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3663afb9b1e7a202b8ee683d0be382ab') in 0.006839 seconds
+  Import took 0.010653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/stand to cover (2).fbx
+  artifactKey: Guid(16078792a43cea046922b97cca281af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/stand to cover (2).fbx using Guid(16078792a43cea046922b97cca281af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '241096830e431c7767742d23b00ca4e9') in 0.007073 seconds
+  Import took 0.011376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/crouched sneaking right.fbx
+  artifactKey: Guid(c22ae8d6c6d460146b2f3c867a2d364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/crouched sneaking right.fbx using Guid(c22ae8d6c6d460146b2f3c867a2d364f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76899d30c40b836edcc3b7b69c9d4b70') in 0.006525 seconds
+  Import took 0.015493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated.fbx
+  artifactKey: Guid(2b78d666e58892f4a931da083084dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated.fbx using Guid(2b78d666e58892f4a931da083084dffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59009e06c776d1b265ef9ebba6a9c07') in 0.061837 seconds
+  Import took 0.071489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/falling idle.fbx
+  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/falling idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7e455fffddca3cfd8b2e2f83be3aad') in 0.007032 seconds
+  Import took 0.011096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/hard landing.fbx
+  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/hard landing.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1f9988a92c6b3a42f1a96bc58c2816') in 0.007099 seconds
+  Import took 0.011100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/left turn.fbx
+  artifactKey: Guid(b7b50fe178d3c8849b085b68e20f07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/left turn.fbx using Guid(b7b50fe178d3c8849b085b68e20f07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1d1c86da03af2e4a47db9822b33102') in 0.006861 seconds
+  Import took 0.011096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (5).fbx
+  artifactKey: Guid(10586c00c011c0a4392271ac089a9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (5).fbx using Guid(10586c00c011c0a4392271ac089a9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c47a479c8340cad10b9a76ae0c8117') in 0.006892 seconds
+  Import took 0.010971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/stand to cover.fbx
+  artifactKey: Guid(fc75dc6649d0fbe428d0658a46197c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/stand to cover.fbx using Guid(fc75dc6649d0fbe428d0658a46197c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf525005568410bea98a7dde747f8b5') in 0.006782 seconds
+  Import took 0.010676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 164.832617 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Falling Idle.fbx
+  artifactKey: Guid(b83cb872e12a24a49813990959678826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Falling Idle.fbx using Guid(b83cb872e12a24a49813990959678826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb53165cdd8da1e10e215246efd98b98') in 0.051620 seconds
+  Import took 0.061673 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Happy Idle.fbx
+  artifactKey: Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Happy Idle.fbx using Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32219cef4bbc7de49c0d9771be224d2c') in 0.126730 seconds
+  Import took 0.131029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing.fbx
+  artifactKey: Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing.fbx using Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deeb256791be684516b3c67896ee28d3') in 0.082886 seconds
+  Import took 0.087220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Up.fbx
+  artifactKey: Guid(3521421a84af721499bcc198bc12ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Up.fbx using Guid(3521421a84af721499bcc198bc12ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1a8bea7b122b4dd46d71897864615b') in 0.042503 seconds
+  Import took 0.046943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180 (1).fbx
+  artifactKey: Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180 (1).fbx using Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e7980a1082da269c14f1d7ceecfe987') in 0.042061 seconds
+  Import took 0.046486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180.fbx
+  artifactKey: Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180.fbx using Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02ddfcc9496b8352ffe9c5a1f8db17ff') in 0.041300 seconds
+  Import took 0.045688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Idle.fbx
+  artifactKey: Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Idle.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb422772c057894b13bb383189d798e') in 0.039197 seconds
+  Import took 0.048968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Sneak Walk.fbx
+  artifactKey: Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Sneak Walk.fbx using Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e16f37931b759ae4a8e1179b419104') in 0.040909 seconds
+  Import took 0.045408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Down.fbx
+  artifactKey: Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Down.fbx using Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e834c535d3ee346d3919c729102338e') in 0.046243 seconds
+  Import took 0.050540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up (1).fbx
+  artifactKey: Guid(144958c620efcc54a9fedcf9fa118bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up (1).fbx using Guid(144958c620efcc54a9fedcf9fa118bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c0fe8f5228a151a4bdb1e68f91ada7') in 0.039966 seconds
+  Import took 0.049469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up.fbx
+  artifactKey: Guid(afb93cc0099c3f4489d4241fb399663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up.fbx using Guid(afb93cc0099c3f4489d4241fb399663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2055464c6dd341d011a7a13b64178807') in 0.045597 seconds
+  Import took 0.049917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling Down.fbx
+  artifactKey: Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling Down.fbx using Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e299de911a3146e0172214c0187dc280') in 0.043988 seconds
+  Import took 0.048438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling.fbx
+  artifactKey: Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling.fbx using Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e175a144243020008357f50ba84547') in 0.041921 seconds
+  Import took 0.046343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Looking Behind.fbx
+  artifactKey: Guid(05b88aab67d7060418d76a43423b045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Looking Behind.fbx using Guid(05b88aab67d7060418d76a43423b045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3546e44eead1bffadbf940566d1853f3') in 0.042018 seconds
+  Import took 0.046477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running.fbx
+  artifactKey: Guid(7f5334c5fe521c74eb4599b4d4dd35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running.fbx using Guid(7f5334c5fe521c74eb4599b4d4dd35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adb5b20e10ec4b09125ae96e898f47e') in 0.040002 seconds
+  Import took 0.049448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 118.860923 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Start Walking.fbx
+  artifactKey: Guid(dc742a15ae80b02448ab0804e881ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Start Walking.fbx using Guid(dc742a15ae80b02448ab0804e881ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade1c0fed94c16d90ca8fa673bad714b') in 0.043895 seconds
+  Import took 0.049058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx
+  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5eae8a943008bdec200066ebfae8f30') in 0.042849 seconds
+  Import took 0.052367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 185.431155 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls
+  artifactKey: Guid(2459afe7fa690eb428ba4b79ffbd251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls using Guid(2459afe7fa690eb428ba4b79ffbd251e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5c997bfba25497c45a1eae95db1511') in 0.009961 seconds
+  Import took 0.013958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085027 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Arch_01.prefab
+  artifactKey: Guid(8fef903d2d12d3c46b6a046f667b2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Arch_01.prefab using Guid(8fef903d2d12d3c46b6a046f667b2a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0176127a36f9765cdb83f95a30a0dd') in 0.044986 seconds
+  Import took 0.049051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_End_01.prefab
+  artifactKey: Guid(26219b56c0086f34596a7f7ca4702fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_End_01.prefab using Guid(26219b56c0086f34596a7f7ca4702fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '576d9a0dbedf2910f0eac581188deffe') in 0.015794 seconds
+  Import took 0.019636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_04.prefab
+  artifactKey: Guid(620667318a53a7040ad3c980acab36d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_04.prefab using Guid(620667318a53a7040ad3c980acab36d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa920163087f38a550d41f70ac9dd728') in 0.017153 seconds
+  Import took 0.021056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_07.prefab
+  artifactKey: Guid(c54ec8fbeec717940b6d5f44c73012c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_07.prefab using Guid(c54ec8fbeec717940b6d5f44c73012c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5375547db89770832430480986862') in 0.019232 seconds
+  Import took 0.023653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_05.prefab
+  artifactKey: Guid(1bf3dbbe9f709c54cac0e2d71b64c139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_05.prefab using Guid(1bf3dbbe9f709c54cac0e2d71b64c139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9740ef4f0b968e6d5323029ee4158343') in 0.016639 seconds
+  Import took 0.020420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_04.prefab
+  artifactKey: Guid(d4a9b35257b94e144af102daec10b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_04.prefab using Guid(d4a9b35257b94e144af102daec10b79f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474bd38e40e82c11be507a463f11f1e') in 0.016014 seconds
+  Import took 0.020366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_Round_01.prefab
+  artifactKey: Guid(166d0f22f17c2f3449265f51f299640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_Round_01.prefab using Guid(166d0f22f17c2f3449265f51f299640c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e2292c24a1f41714291de89301368f') in 0.017433 seconds
+  Import took 0.021415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_01.prefab
+  artifactKey: Guid(f7f8afc7225502240bc7b70a9419c566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_01.prefab using Guid(f7f8afc7225502240bc7b70a9419c566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f931fa3b403c968495a214db2bfe91') in 0.017342 seconds
+  Import took 0.021498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Stairs_01.prefab
+  artifactKey: Guid(b3a8db2c24bfe96478e34750982fb70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Stairs_01.prefab using Guid(b3a8db2c24bfe96478e34750982fb70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81605024e370fa48cb97c458ad489821') in 0.017295 seconds
+  Import took 0.021166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_Round_02.prefab
+  artifactKey: Guid(5afc051ea82884847b27233ef41ff811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_Round_02.prefab using Guid(5afc051ea82884847b27233ef41ff811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6206e7337888276344064c40aaabed0b') in 0.017859 seconds
+  Import took 0.021581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Bars_01.prefab
+  artifactKey: Guid(dd2500919f1e4c64a9dc9604233608a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Bars_01.prefab using Guid(dd2500919f1e4c64a9dc9604233608a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2386d05ee414ac9c1292e84933ebf070') in 0.017137 seconds
+  Import took 0.021279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Pillar_02.prefab
+  artifactKey: Guid(2c52fc029ee6e764aaddc5e8930caf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Pillar_02.prefab using Guid(2c52fc029ee6e764aaddc5e8930caf9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5db830127da47e4b6e4d3402fd338a') in 0.028691 seconds
+  Import took 0.032709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Frame_01.prefab
+  artifactKey: Guid(c3160889564a0d74d98f510aa33dc187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Frame_01.prefab using Guid(c3160889564a0d74d98f510aa33dc187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc08d5899db2783f9f67499cf760c45') in 0.017859 seconds
+  Import took 0.021628 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_03.prefab
+  artifactKey: Guid(8c2d8fa38dd949f4fb0b4e40c868dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_03.prefab using Guid(8c2d8fa38dd949f4fb0b4e40c868dd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3b6f980bdf4551c07cb928e4d6d7a2') in 0.017016 seconds
+  Import took 0.020933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_06.prefab
+  artifactKey: Guid(707e7444a2194ab43a2f2d2bb1eae43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_06.prefab using Guid(707e7444a2194ab43a2f2d2bb1eae43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50559c60335f04a0e41524585f36862e') in 0.017012 seconds
+  Import took 0.021256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_Corner_02.prefab
+  artifactKey: Guid(50de44d10630cfc43a286af857d33846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_Corner_02.prefab using Guid(50de44d10630cfc43a286af857d33846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df4d8e32af8273311289fbda64637dd') in 0.016325 seconds
+  Import took 0.020147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_03.prefab
+  artifactKey: Guid(2d772d7fdfdff1b4e96deee9d48989bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_03.prefab using Guid(2d772d7fdfdff1b4e96deee9d48989bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd7bede0af5693f373404c2471cd09c') in 0.016725 seconds
+  Import took 0.021044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_01.prefab
+  artifactKey: Guid(b1b739f336a20ed488fdb90b9a64faa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_01.prefab using Guid(b1b739f336a20ed488fdb90b9a64faa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f756d6eee08e810ed7c85206081192') in 0.017413 seconds
+  Import took 0.021289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_02.prefab
+  artifactKey: Guid(9e2db045424bf654c94d3b0024430884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_02.prefab using Guid(9e2db045424bf654c94d3b0024430884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055d903c78c10d5374b07bd339b65705') in 0.017749 seconds
+  Import took 0.021903 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Pillar_01.prefab
+  artifactKey: Guid(f1e966c2976c53b4880fbf78effcc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Pillar_01.prefab using Guid(f1e966c2976c53b4880fbf78effcc871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d114391ae26c900dcf6645990d7ec4c') in 0.018103 seconds
+  Import took 0.022185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_05.prefab
+  artifactKey: Guid(8dd1a7e8541c3f740a6cef5d44c0e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_05.prefab using Guid(8dd1a7e8541c3f740a6cef5d44c0e172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac875953fdcfd5dc9897f3baefc89045') in 0.017018 seconds
+  Import took 0.020900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_01.prefab
+  artifactKey: Guid(fd479d726efdf3d4da9cb024a97137e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_01.prefab using Guid(fd479d726efdf3d4da9cb024a97137e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa63e357209f0e59fb8e7ea3c18e7ffb') in 0.017532 seconds
+  Import took 0.021337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_02.prefab
+  artifactKey: Guid(30cbf2b140e7ff04cac9897c5ab79430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_02.prefab using Guid(30cbf2b140e7ff04cac9897c5ab79430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e901fe27ffbb86fe0f14620706e4d1d') in 0.017551 seconds
+  Import took 0.021438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_02.prefab
+  artifactKey: Guid(27158b7015c53b545968d0ddc67778ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Frame_02.prefab using Guid(27158b7015c53b545968d0ddc67778ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5853dbe153ee7462c1a2f1c8d6d0e264') in 0.017456 seconds
+  Import took 0.021250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Frame_02.prefab
+  artifactKey: Guid(c39c4cd0967de674eb0b5c00da3fdccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Frame_02.prefab using Guid(c39c4cd0967de674eb0b5c00da3fdccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c3a07be15346a95854efeacbc6dc28') in 0.017219 seconds
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_03.prefab
+  artifactKey: Guid(3f775ea849f021346ac89fa51ec6a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_03.prefab using Guid(3f775ea849f021346ac89fa51ec6a7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99cc5ed8bd370ea90f3bbbc67d3ec3c') in 0.018456 seconds
+  Import took 0.022386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_02.prefab
+  artifactKey: Guid(df71eb9ba610fdf4087431bd6adab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_02.prefab using Guid(df71eb9ba610fdf4087431bd6adab96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d02f21e6550305fb11b8594516e9aff') in 0.016271 seconds
+  Import took 0.021215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_01.prefab
+  artifactKey: Guid(f5bef9e1bbbbe9f4a89a3c958ad516c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Flat_01.prefab using Guid(f5bef9e1bbbbe9f4a89a3c958ad516c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd57afe9a29fad36054a15b67525a1e53') in 0.017544 seconds
+  Import took 0.021681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_Corner_01.prefab
+  artifactKey: Guid(85f5f4776e3804945ab0095870a1212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Ceiling_Stone_Curved_Corner_01.prefab using Guid(85f5f4776e3804945ab0095870a1212b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230ced184fb8770c8ea1b33b06a2f748') in 0.017176 seconds
+  Import took 0.021240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.807894 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Stone_01.prefab
+  artifactKey: Guid(83bca42b08f07db46a6e240380100f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Stone_01.prefab using Guid(83bca42b08f07db46a6e240380100f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f48a22847024a7d2d9b414917f070c8') in 0.027991 seconds
+  Import took 0.032426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Flat_02.prefab
+  artifactKey: Guid(99ccc99de12ffe040be3b530f06e7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Flat_02.prefab using Guid(99ccc99de12ffe040be3b530f06e7eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eb3ef85c9110b02fd0b81b84fb3250') in 0.017471 seconds
+  Import took 0.021266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Flat_01.prefab
+  artifactKey: Guid(fbfaefed9c8de504992ea1e44db04aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Flat_01.prefab using Guid(fbfaefed9c8de504992ea1e44db04aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90976bb013559d5886ef709faca815b9') in 0.016879 seconds
+  Import took 0.020739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Stone_02.prefab
+  artifactKey: Guid(efde79f5067f01c4680cad7f529c82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Stone_02.prefab using Guid(efde79f5067f01c4680cad7f529c82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f36041d3d6579e216fc408cc3960779') in 0.017462 seconds
+  Import took 0.021271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Round_01.prefab
+  artifactKey: Guid(7b2cf94cdab0ced489fd2a15c809d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Round_01.prefab using Guid(7b2cf94cdab0ced489fd2a15c809d7b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ee30f1a91259eac45d6abe9813015a') in 0.017280 seconds
+  Import took 0.021425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Wood_02.prefab
+  artifactKey: Guid(749ac805017ffb642834e61134421373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Wood_02.prefab using Guid(749ac805017ffb642834e61134421373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9f463745ac1e9c61bfbd913504a55b') in 0.017936 seconds
+  Import took 0.021961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Wood_01.prefab
+  artifactKey: Guid(7d4b7f62843a70e48ad6f3b8dd9edc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Door_Large_Wood_01.prefab using Guid(7d4b7f62843a70e48ad6f3b8dd9edc48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e798f6264530c09ec204b6b8280db0e8') in 0.016673 seconds
+  Import took 0.020716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.742267 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Round_02.prefab
+  artifactKey: Guid(7ddf8511e259b61448ee08c0759223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_DoorDouble_Round_02.prefab using Guid(7ddf8511e259b61448ee08c0759223e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b221e3b380b2bb41e14e210f1718db6d') in 0.028884 seconds
+  Import took 0.033253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01.prefab
+  artifactKey: Guid(939f27c57ef13654eafcf37ff873a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01.prefab using Guid(939f27c57ef13654eafcf37ff873a454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a870b4a7896c7d49e2bd70ae1394b9') in 0.016172 seconds
+  Import took 0.020178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_Alt.prefab
+  artifactKey: Guid(f18318a9de51f9b4f993559b01c40e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_Alt.prefab using Guid(f18318a9de51f9b4f993559b01c40e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3cd5ef7b8374b0b30a6d7169ad6c8f') in 0.018619 seconds
+  Import took 0.022840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_02.prefab
+  artifactKey: Guid(d3ce5fe83b1090246a3572735e3dd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_02.prefab using Guid(d3ce5fe83b1090246a3572735e3dd832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00eb71316116fc461fe4a9238e318323') in 0.015003 seconds
+  Import took 0.019141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Round_02.prefab
+  artifactKey: Guid(f4a1749bdb96e574ba3e4aa4de9516a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Round_02.prefab using Guid(f4a1749bdb96e574ba3e4aa4de9516a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e329dbd8e846d2be4989aa81cec4cc4') in 0.017546 seconds
+  Import took 0.021586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_07.prefab
+  artifactKey: Guid(edc836b82587af342b79b01da47827f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_07.prefab using Guid(edc836b82587af342b79b01da47827f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '192d9712260e74bd3d2cd2e0fdb7b9fe') in 0.017230 seconds
+  Import took 0.021299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Round_01.prefab
+  artifactKey: Guid(78323bf0d7182224dbacd34e55e53ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Round_01.prefab using Guid(78323bf0d7182224dbacd34e55e53ec3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be47337d890e5a2af1715c408221ecf5') in 0.016903 seconds
+  Import took 0.021156 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Stairs_Wall_01.prefab
+  artifactKey: Guid(af48b398cfc3032438173ba9d60ae13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Stairs_Wall_01.prefab using Guid(af48b398cfc3032438173ba9d60ae13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdf66acc089c3469d7f02c3672b0800') in 0.017045 seconds
+  Import took 0.021354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_DoubleSided.prefab
+  artifactKey: Guid(196b993d2b0354842bd6fa90eb970550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_01_DoubleSided.prefab using Guid(196b993d2b0354842bd6fa90eb970550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0823759a9f5e4528d37c0179ce60e82b') in 0.021385 seconds
+  Import took 0.025399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_03.prefab
+  artifactKey: Guid(a475e72db2f78ba41b557ca01e7ed990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_03.prefab using Guid(a475e72db2f78ba41b557ca01e7ed990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b60a3e31131df257d9d3b41400fe1c5d') in 0.018571 seconds
+  Import took 0.022714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_06.prefab
+  artifactKey: Guid(42988b617e6b4924e88885352823ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_06.prefab using Guid(42988b617e6b4924e88885352823ba7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84651a3afd229cff80f55f22b2da05e1') in 0.016481 seconds
+  Import took 0.020804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Small_01.prefab
+  artifactKey: Guid(8f060e4c716392b4fa1aeb91e2996207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Small_01.prefab using Guid(8f060e4c716392b4fa1aeb91e2996207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8bcec2c0feae9524c32a8b8c5e6828f') in 0.042449 seconds
+  Import took 0.046531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_05.prefab
+  artifactKey: Guid(d35aef65f03ae2a4e98cc24bcb5b5cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_05.prefab using Guid(d35aef65f03ae2a4e98cc24bcb5b5cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72f1a310d8f45ba7f5ee24961c5c99b') in 0.016780 seconds
+  Import took 0.021275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_04.prefab
+  artifactKey: Guid(e73dff4b52d607f4ca11b85eca8f146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_04.prefab using Guid(e73dff4b52d607f4ca11b85eca8f146b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f1b9b657cc39c11c2d2f59b320b239') in 0.016951 seconds
+  Import took 0.020962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.339475 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Small_02.prefab
+  artifactKey: Guid(b7e10af124e9a6b428ac6a33c45dc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Alcove_Small_02.prefab using Guid(b7e10af124e9a6b428ac6a33c45dc32c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd5a7601dd85107efdc77f9dd7ca83df') in 0.029872 seconds
+  Import took 0.034227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Broken_Edge_01.prefab
+  artifactKey: Guid(79bc9246d82833f41a623e9e01fd5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Broken_Edge_01.prefab using Guid(79bc9246d82833f41a623e9e01fd5e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec230d5c1800f4f150e88475e135a34b') in 0.017536 seconds
+  Import took 0.021865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_01.prefab
+  artifactKey: Guid(8f8b5d6c623b2fe4a9d00edeb386b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_01.prefab using Guid(8f8b5d6c623b2fe4a9d00edeb386b528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b829bc66249dbad00770cac1450ed2') in 0.019199 seconds
+  Import took 0.023615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Archway_02.prefab
+  artifactKey: Guid(d8ec58f0ec86550429486ef4c8cb7e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Archway_02.prefab using Guid(d8ec58f0ec86550429486ef4c8cb7e4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12bf657095ce2a1011635e0c7845600b') in 0.017238 seconds
+  Import took 0.021285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_01_Alt.prefab
+  artifactKey: Guid(3095eed88e39bec4bb5a519dac88fed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_01_Alt.prefab using Guid(3095eed88e39bec4bb5a519dac88fed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11fd71207544648427876dade952dd3') in 0.018010 seconds
+  Import took 0.022136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Archway_01.prefab
+  artifactKey: Guid(24ae687c2d5de7245ac5884e42b824e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Archway_01.prefab using Guid(24ae687c2d5de7245ac5884e42b824e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0dd948414be8f81c0f7c377e66e75d5') in 0.016985 seconds
+  Import took 0.021426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Broken_Edge_02.prefab
+  artifactKey: Guid(7f3e28fd8f7ec044aa81238b1b58a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Broken_Edge_02.prefab using Guid(7f3e28fd8f7ec044aa81238b1b58a5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '830096beb2c2acccc859f315a3e18986') in 0.020983 seconds
+  Import took 0.025155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307514 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_02.prefab
+  artifactKey: Guid(340c9cec7d5a9fa44a3eabc7df30bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_02.prefab using Guid(340c9cec7d5a9fa44a3eabc7df30bf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4493d491d726819fb1893249415ac88') in 0.028708 seconds
+  Import took 0.032745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_03.prefab
+  artifactKey: Guid(672ee923d7f567d4999ca9b98280f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_03.prefab using Guid(672ee923d7f567d4999ca9b98280f884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6554da5a60eba0a6d0bdf7297addb7b6') in 0.017352 seconds
+  Import took 0.021450 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_02.prefab
+  artifactKey: Guid(92f8c2e1e15bda544b2b3a62a69798e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_02.prefab using Guid(92f8c2e1e15bda544b2b3a62a69798e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f18a6f2e3fdda20f55a5f9a9436599') in 0.017647 seconds
+  Import took 0.021523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_04.prefab
+  artifactKey: Guid(9f8634c7eb2d75149b0b37a811f69d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Culled_04.prefab using Guid(9f8634c7eb2d75149b0b37a811f69d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716f621c8dbc7d2bcc6487e0e38bf19a') in 0.017580 seconds
+  Import took 0.021486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_01.prefab
+  artifactKey: Guid(947ebd566533c054abc552d63317dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_01.prefab using Guid(947ebd566533c054abc552d63317dbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b3f45927a374287402a05d09955051') in 0.017722 seconds
+  Import took 0.021932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_01.prefab
+  artifactKey: Guid(cd0f01e625e553e4da51ffa4b8e3848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_01.prefab using Guid(cd0f01e625e553e4da51ffa4b8e3848d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f13919f64a5001dd468986cb06e91cd2') in 0.016700 seconds
+  Import took 0.021215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Curved_Roof_01.prefab
+  artifactKey: Guid(53a4f63e40e043b429f794be2068b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Curved_Roof_01.prefab using Guid(53a4f63e40e043b429f794be2068b4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061ee9645c8f878e8b14570f103f101f') in 0.017029 seconds
+  Import took 0.021030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366718 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_Round_01.prefab
+  artifactKey: Guid(b12f29180236ca64ab5aa5c5a3b025da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Double_Round_01.prefab using Guid(b12f29180236ca64ab5aa5c5a3b025da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e190492512ebbdc695568294529071') in 0.028032 seconds
+  Import took 0.032144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_Coner_Inner_01.prefab
+  artifactKey: Guid(2f502f470bc99cf40a5d520810ab13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_Coner_Inner_01.prefab using Guid(2f502f470bc99cf40a5d520810ab13c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd11782325e839f4380117472ecdd170c') in 0.015444 seconds
+  Import took 0.019333 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Entrance_01.prefab
+  artifactKey: Guid(d537c186f3833064e9d8c3525655f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Entrance_01.prefab using Guid(d537c186f3833064e9d8c3525655f44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa6af82befb9546a454eaf0f1935f55') in 0.016894 seconds
+  Import took 0.020741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Pillar_Large_01.prefab
+  artifactKey: Guid(33604d1ec5375e3488891483b470a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Pillar_Large_01.prefab using Guid(33604d1ec5375e3488891483b470a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18280cf5960b4e8f9aadc57cd27ff588') in 0.017138 seconds
+  Import took 0.021272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Edge_01.prefab
+  artifactKey: Guid(68c36969be1a05e4ba39680b7d1b04b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Edge_01.prefab using Guid(68c36969be1a05e4ba39680b7d1b04b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d6129ea781ea6238f1dec48354ccab') in 0.017004 seconds
+  Import took 0.021029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Top_02.prefab
+  artifactKey: Guid(2cf48913701c4ad46a9aff440e66546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Top_02.prefab using Guid(2cf48913701c4ad46a9aff440e66546e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f382ca66a798758f85c28b9fd4fae675') in 0.015177 seconds
+  Import took 0.018972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Top_01.prefab
+  artifactKey: Guid(c355e7909e9522744abb86e9cc7499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Top_01.prefab using Guid(c355e7909e9522744abb86e9cc7499da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94f980950cf96cf40b7399f89ab3d292') in 0.016687 seconds
+  Import took 0.020747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_Bars_02.prefab
+  artifactKey: Guid(41eeee7ac6cd71342a13a0fc4a0a0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_Bars_02.prefab using Guid(41eeee7ac6cd71342a13a0fc4a0a0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6fc6fdebe42edd3a0b8e1638058e70') in 0.017170 seconds
+  Import took 0.021504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Wood_Beams_01.prefab
+  artifactKey: Guid(b55c5c89af6466b4eac975ed5d76d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Wood_Beams_01.prefab using Guid(b55c5c89af6466b4eac975ed5d76d2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd7fbb25a1dfa0ce9b90d86c5ab2df1f') in 0.017967 seconds
+  Import took 0.022106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_Bars_01.prefab
+  artifactKey: Guid(827c3239a0ee95542b7e6ae6288e5ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_Bars_01.prefab using Guid(827c3239a0ee95542b7e6ae6288e5ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a81640c8d38d4a9b8b91f4a3f4074d7') in 0.016816 seconds
+  Import took 0.020980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_01.prefab
+  artifactKey: Guid(78466d0b55e39444a95c774fd1461854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_01.prefab using Guid(78466d0b55e39444a95c774fd1461854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0001407023ceff5cbe422156ea9d84b4') in 0.016997 seconds
+  Import took 0.021336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Gap_01.prefab
+  artifactKey: Guid(90ca36de85806fa42a09ae234b3b3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Gap_01.prefab using Guid(90ca36de85806fa42a09ae234b3b3c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca90ec4ee9bbfcb8ba7feb6baf7dda6') in 0.018242 seconds
+  Import took 0.022364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_01.prefab
+  artifactKey: Guid(6d0615b42061f5e4ca66efb44723fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_01.prefab using Guid(6d0615b42061f5e4ca66efb44723fc65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4dbf30c73c8e5d552cf7254e5821aa') in 0.017958 seconds
+  Import took 0.022381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Floor_02.prefab
+  artifactKey: Guid(3a7d65226cbbf3f4d839c4c265da4f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Floor_02.prefab using Guid(3a7d65226cbbf3f4d839c4c265da4f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06298f2ad48234fe8637158b2118500') in 0.019338 seconds
+  Import took 0.023484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Floor_01.prefab
+  artifactKey: Guid(94ca6d6ca29cc81419b65c6bf9286a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Trim_Floor_01.prefab using Guid(94ca6d6ca29cc81419b65c6bf9286a6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '380727e0c670356a9d211741c1304d97') in 0.017018 seconds
+  Import took 0.021152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Pillar_Large_Broken_01.prefab
+  artifactKey: Guid(8926256a12a856b4d8ef227f9d6fdc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Pillar_Large_Broken_01.prefab using Guid(8926256a12a856b4d8ef227f9d6fdc38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4879d66dc6db1bba5073c29c83a01b8') in 0.017060 seconds
+  Import took 0.020984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Tunnel_Entrance_01.prefab
+  artifactKey: Guid(323c68ad1928c8847a6bd6ea4a553bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Tunnel_Entrance_01.prefab using Guid(323c68ad1928c8847a6bd6ea4a553bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec02f38f232c9d470e7a26700f54c34') in 0.016624 seconds
+  Import took 0.020695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_02.prefab
+  artifactKey: Guid(8dcfd4337d879154cb96b9e52b53d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Window_02.prefab using Guid(8dcfd4337d879154cb96b9e52b53d06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e01815957b4aa08b03a9cb235d6f32') in 0.016812 seconds
+  Import took 0.020978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Quarter_01.prefab
+  artifactKey: Guid(a9303bd2cd5b01e43895c7af905fa35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Quarter_01.prefab using Guid(a9303bd2cd5b01e43895c7af905fa35e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f339c5441e72dac3f5d181f9fabcba0') in 0.016431 seconds
+  Import took 0.020647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Alcove_01.prefab
+  artifactKey: Guid(f54fdd2e465c1ed478d667930d2ce537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Fireplace_Alcove_01.prefab using Guid(f54fdd2e465c1ed478d667930d2ce537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62241c83bf6821910c84735d8e0fb6f8') in 0.017044 seconds
+  Import took 0.021052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Round_01.prefab
+  artifactKey: Guid(ded14b4d6268d2643ae9d947489d4667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_DoorFrame_Round_01.prefab using Guid(ded14b4d6268d2643ae9d947489d4667) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e436597897818bae5a91e54e08a44c') in 0.019721 seconds
+  Import took 0.023749 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_Coner_Outer_01.prefab
+  artifactKey: Guid(c4c867f83beeae549bdc784dca9b0798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_End_Coner_Outer_01.prefab using Guid(c4c867f83beeae549bdc784dca9b0798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682ac831719aad5210c680b046a9e00c') in 0.017045 seconds
+  Import took 0.020968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Half_01.prefab
+  artifactKey: Guid(ae09c1c5f9a271341ad23e187de16e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Half_01.prefab using Guid(ae09c1c5f9a271341ad23e187de16e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '214bd4084ae37bb3a257c0c766593a16') in 0.017621 seconds
+  Import took 0.021653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Tunnel_01.prefab
+  artifactKey: Guid(8b1967a192a05e34dbffd584817d5962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Walls/SM_Env_Wall_Tunnel_01.prefab using Guid(8b1967a192a05e34dbffd584817d5962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e68161faabfbc0d12b70654ae776313e') in 0.020313 seconds
+  Import took 0.024416 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001046 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.770 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.2 MB.
+System memory in use after: 236.5 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3316.
+Total: 3.240100 ms (FindLiveObjects: 0.295900 ms CreateObjectMapping: 0.143200 ms MarkObjects: 1.526500 ms  DeleteObjects: 1.273400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 720.711256 seconds.
+  path: Assets/GameObjects/Gameplay/SceneTransitionPoint.prefab
+  artifactKey: Guid(8b9f5d7d5d59dd04ab2511913d807cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Gameplay/SceneTransitionPoint.prefab using Guid(8b9f5d7d5d59dd04ab2511913d807cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45a6a4f397668fda80d2d0329b5147a') in 0.032093 seconds
+  Import took 0.036934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001882 seconds.
+  path: Assets/GameObjects/Gameplay/SceneTransitionPoint.prefab
+  artifactKey: Guid(8b9f5d7d5d59dd04ab2511913d807cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/Gameplay/SceneTransitionPoint.prefab using Guid(8b9f5d7d5d59dd04ab2511913d807cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45a6a4f397668fda80d2d0329b5147a') in 0.002504 seconds
+  Import took 0.006260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.067511 seconds.
+  path: Assets/GameObjects/SceneManagement
+  artifactKey: Guid(27b886bfde5b817429cd944ebe329687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GameObjects/SceneManagement using Guid(27b886bfde5b817429cd944ebe329687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3720b71ce738e7eb6a554bd488906b43') in 0.004640 seconds
+  Import took 0.014101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 163.755087 seconds.
+  path: Assets/Assets/Characters/Mayu/MayuMesh.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/MayuMesh.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5519a6bb4902b8065d6eb8423b4fb6a2') in 0.080075 seconds
+  Import took 0.084702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.457068 seconds.
+  path: Assets/Assets/Characters/Mayu/MayuMesh.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/MayuMesh.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51b183a86631284b02a36127158bc29d') in 0.043691 seconds
+  Import took 0.048387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.684667 seconds.
+  path: Assets/Assets/Characters/Mayu/MayuMesh.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/MayuMesh.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463cfc79e458c403ab21f9135b146a4a') in 0.042208 seconds
+  Import took 0.046832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.663884 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing
+  artifactKey: Guid(92beac95adb4f1448addbf8cb81a7b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing using Guid(92beac95adb4f1448addbf8cb81a7b69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee821023980b9ae87bfb24600610cd36') in 0.004693 seconds
+  Import took 0.008666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.985625 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/running.fbx
+  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/running.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85164e034232c6cbdddb7bb37678070a') in 0.004271 seconds
+  Import took 0.008422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Happy Idle.fbx
+  artifactKey: Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Happy Idle.fbx using Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0bf5b0ea2bd4f1e516f417085b9cf5') in 0.095183 seconds
+  Import took 0.099495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing.fbx
+  artifactKey: Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing.fbx using Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd769e52b8fbf5375e0f18ab67f6a27be') in 0.039959 seconds
+  Import took 0.044166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Up.fbx
+  artifactKey: Guid(3521421a84af721499bcc198bc12ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Up.fbx using Guid(3521421a84af721499bcc198bc12ee57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d1bb212e5b51bf57d47f66c6f17029') in 0.040901 seconds
+  Import took 0.045023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Start Walking.fbx
+  artifactKey: Guid(dc742a15ae80b02448ab0804e881ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Start Walking.fbx using Guid(dc742a15ae80b02448ab0804e881ff51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb17fe4ed36ba0d751e140158e57d65') in 0.042029 seconds
+  Import took 0.046405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Falling Idle.fbx
+  artifactKey: Guid(b83cb872e12a24a49813990959678826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Falling Idle.fbx using Guid(b83cb872e12a24a49813990959678826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd84eb8b23e1ca5b983d357991bb1a4a') in 0.045721 seconds
+  Import took 0.051106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (4).fbx
+  artifactKey: Guid(8f007a9356269374dbd562656e6f3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (4).fbx using Guid(8f007a9356269374dbd562656e6f3f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b5ed336269e4c153a34b4c913b18e03') in 0.009926 seconds
+  Import took 0.014649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180 (1).fbx
+  artifactKey: Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180 (1).fbx using Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe54a5069ad74eac13ff4cd363e4be7') in 0.046193 seconds
+  Import took 0.056277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180.fbx
+  artifactKey: Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running Turn 180.fbx using Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda9fb77c518f0a4f0eebf2862b2e55f') in 0.043520 seconds
+  Import took 0.048077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Idle.fbx
+  artifactKey: Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Standing Idle.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f09c749d5630d9580cf839096339fe') in 0.041828 seconds
+  Import took 0.046323 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Sneak Walk.fbx
+  artifactKey: Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Sneak Walk.fbx using Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2894ab2365176847a4fa5bf2663888a') in 0.044124 seconds
+  Import took 0.053992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx
+  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bed3cbb126b4d5cebae7b22f800c47') in 0.041430 seconds
+  Import took 0.045882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Down.fbx
+  artifactKey: Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Down.fbx using Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1517de6667afc0b7efe8597d4585d27') in 0.039776 seconds
+  Import took 0.044410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up (1).fbx
+  artifactKey: Guid(144958c620efcc54a9fedcf9fa118bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up (1).fbx using Guid(144958c620efcc54a9fedcf9fa118bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153b37b55337e3c38508937d088267d5') in 0.044446 seconds
+  Import took 0.049084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up.fbx
+  artifactKey: Guid(afb93cc0099c3f4489d4241fb399663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Jumping Up.fbx using Guid(afb93cc0099c3f4489d4241fb399663c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e7ba51e9ca491ca7d839624f2ce1b24') in 0.044436 seconds
+  Import took 0.049064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling Down.fbx
+  artifactKey: Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling Down.fbx using Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06362f5be9dfd2b2efb9713d0e5c38ec') in 0.046473 seconds
+  Import took 0.050964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/walking.fbx
+  artifactKey: Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/walking.fbx using Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f897431e56fa1f9acffcb6010cccfac9') in 0.007330 seconds
+  Import took 0.011757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/stand to cover (2).fbx
+  artifactKey: Guid(16078792a43cea046922b97cca281af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/stand to cover (2).fbx using Guid(16078792a43cea046922b97cca281af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cde3cedb10ab8962651d95b47d34de74') in 0.003915 seconds
+  Import took 0.007878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling.fbx
+  artifactKey: Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Kneeling.fbx using Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7785341daf43a9d3205bedca340adc0c') in 0.048968 seconds
+  Import took 0.053352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Looking Behind.fbx
+  artifactKey: Guid(05b88aab67d7060418d76a43423b045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Looking Behind.fbx using Guid(05b88aab67d7060418d76a43423b045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570a088487d1918561dda9646d9280c7') in 0.042219 seconds
+  Import took 0.046565 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/stand to cover.fbx
+  artifactKey: Guid(fc75dc6649d0fbe428d0658a46197c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/stand to cover.fbx using Guid(fc75dc6649d0fbe428d0658a46197c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41c62323ca4a56336ad7d2618e1d352') in 0.008723 seconds
+  Import took 0.013037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running.fbx
+  artifactKey: Guid(7f5334c5fe521c74eb4599b4d4dd35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Running.fbx using Guid(7f5334c5fe521c74eb4599b4d4dd35f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f48a6856ed66de30d8efc404a956209') in 0.043488 seconds
+  Import took 0.048452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.004053 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle.fbx
+  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43a3c413271c80a23d731108e127dd9c') in 0.004299 seconds
+  Import took 0.008554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/run to stop.fbx
+  artifactKey: Guid(40920a76eac147e4b85d807bfb604794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/run to stop.fbx using Guid(40920a76eac147e4b85d807bfb604794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9bfd7e2594d9072060c437c1d5e384c') in 0.003752 seconds
+  Import took 0.008079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/right turn.fbx
+  artifactKey: Guid(fffc0b036be7a61419a9c3a9d6fb86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/right turn.fbx using Guid(fffc0b036be7a61419a9c3a9d6fb86bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '503c4116f338817014f1fca1c351bcee') in 0.006914 seconds
+  Import took 0.011006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/left cover sneak.fbx
+  artifactKey: Guid(958fc0882a5104647b69a72fa8864294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/left cover sneak.fbx using Guid(958fc0882a5104647b69a72fa8864294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28da24f80688be3e83fa514bb568248c') in 0.003894 seconds
+  Import took 0.007825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/jumping up.fbx
+  artifactKey: Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/jumping up.fbx using Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784bac1a0fdfd3e57446541a557e1d4e') in 0.003871 seconds
+  Import took 0.007866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/right cover sneak.fbx
+  artifactKey: Guid(754db0dfc3b4dcf4a8216cff8e998a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/right cover sneak.fbx using Guid(754db0dfc3b4dcf4a8216cff8e998a8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfff413be1c2800546cfc231cacd880c') in 0.003881 seconds
+  Import took 0.013335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (2).fbx
+  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (2).fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d0a61dd8f09ff1b22420bcba0a9262e') in 0.004040 seconds
+  Import took 0.013288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (3).fbx
+  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (3).fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbae352379a9341bb30d302d51e93cc6') in 0.004066 seconds
+  Import took 0.008232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/falling idle.fbx
+  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/falling idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c9b2cbf8f7f26cbd918e22f954cc89') in 0.003600 seconds
+  Import took 0.007606 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/hard landing.fbx
+  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/hard landing.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13a5b92fa7d30b55efcf9d9cb4f4fac') in 0.004473 seconds
+  Import took 0.008344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/left turn.fbx
+  artifactKey: Guid(b7b50fe178d3c8849b085b68e20f07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/left turn.fbx using Guid(b7b50fe178d3c8849b085b68e20f07ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02625f98cbf4dcd25b9bd1163933f76a') in 0.006915 seconds
+  Import took 0.010815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (5).fbx
+  artifactKey: Guid(10586c00c011c0a4392271ac089a9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (5).fbx using Guid(10586c00c011c0a4392271ac089a9491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e2cd6d14bd1cbfe8f465e4552ee97a') in 0.003681 seconds
+  Import took 0.007571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.933816 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Idle.fbx
+  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c09dcd5cdae1f671d52b6bd9e71ef3e') in 0.007041 seconds
+  Import took 0.016781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.336393 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Idle.fbx
+  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac1f754b4dcd961d4cdac8b78c320a4') in 0.004607 seconds
+  Import took 0.008735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.425663 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Hard.fbx
+  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/MayuMesh@Falling_Hard.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d8deb1de84c0380d1586ab7034893c') in 0.007283 seconds
+  Import took 0.017159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.948443 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/MayuMesh@Idle_Alert.fbx
+  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/MayuMesh@Idle_Alert.fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387cde0ba234de8402b82b16c38fd763') in 0.007435 seconds
+  Import took 0.017201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.023055 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/idle (3).fbx
+  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/idle (3).fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae90b42177f9c9c6af7b4ffbc940304e') in 0.004066 seconds
+  Import took 0.008179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.626450 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/MayuMesh@Idle_ToeTap.fbx
+  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/MayuMesh@Idle_ToeTap.fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64d825dfa6d628086fbcc62270d74e1a') in 0.007323 seconds
+  Import took 0.016878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.765866 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx
+  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '120150c2830d104059dffa2df366f0d9') in 0.007519 seconds
+  Import took 0.012011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.268801 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx
+  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9617289b5446fa3688f358c23999cd5') in 0.007246 seconds
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.885058 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Idle.fbx
+  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaeac82a2b7c533b180b5d212323e291') in 0.007215 seconds
+  Import took 0.011557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.893164 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx
+  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431b12ad9a66f987d13d9baa5887d998') in 0.008469 seconds
+  Import took 0.018101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.125386 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx
+  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bbe1c995cd7fe15f9dbcdf67f2f3f02') in 0.007240 seconds
+  Import took 0.011535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.532563 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7dc1c753a8bd5406863d350142394e') in 0.058143 seconds
+  Import took 0.063061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.248958 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx
+  artifactKey: Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx using Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5cc72262299ae62fee745ba18cdb696') in 0.007039 seconds
+  Import took 0.011270 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.351037 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx
+  artifactKey: Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx using Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3248c4f33166dfc8f12d70543a562e98') in 0.044091 seconds
+  Import took 0.048845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.783797 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx
+  artifactKey: Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx using Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8ce1f35886ddcf620edb3d5e45632ad') in 0.063169 seconds
+  Import took 0.068438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 186.887779 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx
+  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a292b7015af1e1e941946e032404ef') in 0.007241 seconds
+  Import took 0.017181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.215528 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling Down.fbx
+  artifactKey: Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling Down.fbx using Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc7cf949e34bae9841c06332481e6e9') in 0.051729 seconds
+  Import took 0.056590 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.396991 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_Idle.fbx
+  artifactKey: Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_Idle.fbx using Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7bf5788a1956a5ac5dbcebd5dc6b0') in 0.044295 seconds
+  Import took 0.049064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 64.504818 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx
+  artifactKey: Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx using Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f7159ff0794e870b826a96f542f917') in 0.048244 seconds
+  Import took 0.058390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.051634 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx
+  artifactKey: Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx using Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c03ed1fc7a1db4702e7773be32519f16') in 0.050665 seconds
+  Import took 0.055613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 96.447834 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_To_Standing.fbx
+  artifactKey: Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_To_Standing.fbx using Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c40066210e8bc852e20b87ea8aac5d1') in 0.046483 seconds
+  Import took 0.051526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.924273 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx
+  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/T-Pose_Updated@Warrior Idle.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2b49b59aa07518a89aec6358fa699be') in 0.050453 seconds
+  Import took 0.056015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.479415 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx
+  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f38dd3391e02cd70226498609aebf9f') in 0.052878 seconds
+  Import took 0.057493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.002947 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx
+  artifactKey: Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx using Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a5c751ffc7d8c0a215758c8274f83d') in 0.007752 seconds
+  Import took 0.012089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.335110 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Sneak_Walk.fbx
+  artifactKey: Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Sneak_Walk.fbx using Guid(c8cfb791c4b7474469d574092a14d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48c7446f26f1f54ef597e9e1b2cab5d') in 0.059707 seconds
+  Import took 0.064676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001071 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 238.7 MB.
+System memory in use after: 237.0 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3320.
+Total: 3.529800 ms (FindLiveObjects: 0.363600 ms CreateObjectMapping: 0.205100 ms MarkObjects: 1.642000 ms  DeleteObjects: 1.318200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 511.887236 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed2f5ddb79a17d635304a02d7b4e1002') in 0.085476 seconds
+  Import took 0.096059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.430794 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0e0ccd6e16dfefff1ea2f16d866a1c') in 0.024392 seconds
+  Import took 0.028890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.714025 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22875a86a733871e95b24c08958f7505') in 0.022761 seconds
+  Import took 0.032470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.194731 seconds.
+  path: Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx
+  artifactKey: Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/05_24_2021_Mayu_Updated_V2.fbx using Guid(feeb93ba042e54e478347063a19b0c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0447fecba0d0c15d5441e7503c5355b') in 0.022480 seconds
+  Import took 0.026893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.145234 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692d5229c2e110bb7b284ed6efa0d2a8') in 0.039154 seconds
+  Import took 0.044354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.876164 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbf553625f66c546f3325c038f414e0') in 0.046271 seconds
+  Import took 0.051266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.934020 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229a82756890d7ef4d241a737637ebfb') in 0.040086 seconds
+  Import took 0.044827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.663656 seconds.
+  path: Assets/Assets/Characters/Mayu/Mayu.fbx
+  artifactKey: Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Mayu.fbx using Guid(0adfa5c7906ba774bbb76e9e8a40fc90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c0e0da9a8e58537f40bacf2906e0df3') in 0.039028 seconds
+  Import took 0.043738 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001119 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2640 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.4 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3324.
+Total: 4.380400 ms (FindLiveObjects: 0.500800 ms CreateObjectMapping: 0.244300 ms MarkObjects: 1.759800 ms  DeleteObjects: 1.874100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 519.404420 seconds.
+  path: Assets/Scripts/Utils
+  artifactKey: Guid(8652d882db669744faa07b7b2aa8a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils using Guid(8652d882db669744faa07b7b2aa8a865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa54a7ceb370518ed8f181fd30685a28') in 0.009158 seconds
+  Import took 0.014277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.312642 seconds.
+  path: Assets/Scripts/Utils/VisualTriggerVolume.cs
+  artifactKey: Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/VisualTriggerVolume.cs using Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb72b1bbb2ab842b82bf326b52a1331') in 0.005938 seconds
+  Import took 0.010325 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004859 seconds.
+  path: Assets/Scripts/Utils/VisualTriggerVolume.cs
+  artifactKey: Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/VisualTriggerVolume.cs using Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb72b1bbb2ab842b82bf326b52a1331') in 0.001516 seconds
+  Import took 0.005708 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.826 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3328.
+Total: 3.757600 ms (FindLiveObjects: 0.419600 ms CreateObjectMapping: 0.189600 ms MarkObjects: 1.686900 ms  DeleteObjects: 1.460800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 239.5 MB.
+System memory in use after: 237.8 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 3.689200 ms (FindLiveObjects: 0.315700 ms CreateObjectMapping: 0.150200 ms MarkObjects: 1.723800 ms  DeleteObjects: 1.498500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.568449 seconds.
+  path: Assets/Scripts/Utils/VisualTriggerVolume.cs
+  artifactKey: Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Utils/VisualTriggerVolume.cs using Guid(6247420881a4857429a48d2db981363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4b79ce003b6e57eee4346aeb063692') in 0.004444 seconds
+  Import took 0.013964 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
