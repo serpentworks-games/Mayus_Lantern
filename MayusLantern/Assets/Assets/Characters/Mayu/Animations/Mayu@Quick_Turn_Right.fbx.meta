@@ -49,7 +49,7 @@ ModelImporter:
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
@@ -526,13 +526,13 @@ ModelImporter:
         length: 0
         modified: 0
     skeleton:
-    - name: MayuMesh(Clone)
+    - name: Mayu(Clone)
       parentName: 
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface228
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -662,7 +662,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface2621
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0017131042, y: 1.6416929, z: -0.09671011}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -752,7 +752,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface2781
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0017131042, y: 1.6416929, z: -0.09671011}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -872,7 +872,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface24
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0, y: 0, z: 3.8327446}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -902,7 +902,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface2891
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0033198164, y: 2.6794043, z: -0.2086322}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -912,7 +912,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface303
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0017131042, y: 1.6416929, z: -0.20863222}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1042,7 +1042,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface3061
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0017131042, y: 1.6416929, z: -0.20625131}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1172,7 +1172,7 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface3261
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0.0017131042, y: 1.8221834, z: -0.20625131}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
@@ -1302,12 +1302,12 @@ ModelImporter:
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: polySurface3311
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: -0, y: 0, z: 0}
       rotation: {x: 0, y: -0, z: -0, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:Hips
-      parentName: MayuMesh(Clone)
+      parentName: Mayu(Clone)
       position: {x: 0.0000031475108, y: 1.5843437, z: -0.0066269934}
       rotation: {x: 0.000000100110796, y: 0.000000055840378, z: -0.000014431094, w: 1}
       scale: {x: 1, y: 1, z: 1}
