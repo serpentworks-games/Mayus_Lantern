@@ -7,6 +7,7 @@ namespace ML.Player
     using ML.Helpers;
     using ML.MessageSystem;
     using UnityEngine;
+    using ML.SceneManagement;
 
     [RequireComponent(typeof(CharacterController))]
     [RequireComponent(typeof(Animator))]
@@ -461,7 +462,8 @@ namespace ML.Player
             }
 
             //Wait for the screen to fade out
-            //TODO: ScreenFader.cs
+            yield return StartCoroutine(ScreenFader.FadeSceneOut());
+            while(ScreenFader.IsFading) yield return null;
 
             //Enable spawning
             PlayerSpawnFX spawn = GetComponentInChildren<PlayerSpawnFX>();
@@ -485,7 +487,7 @@ namespace ML.Player
             spawn.StartEffect();
 
             //Wait for screen to fade back in
-            //TODO: ScreenFader.cs
+            yield return StartCoroutine(ScreenFader.FadeSceneIn());
 
             m_Damageable.ResetDamage();
         }

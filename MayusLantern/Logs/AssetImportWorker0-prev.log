@@ -15,11 +15,11 @@ E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59423
+59823
 Successfully changed project path to: E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 E:/GameDev/Mayus_Lantern/Mayus_Lantern/MayusLantern
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 68.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 69.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,439 +35,395 @@ Initialize mono
 Mono path[0] = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: E:/Programs/UnityEditors/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001017 seconds.
+Registered in 0.001054 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 81.26 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 81.12 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.717 seconds
+- Completed reload, in  1.102 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000772 seconds.
+Registered in 0.000780 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.779 seconds
+- Completed reload, in  0.799 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2822 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 235.8 MB.
 System memory in use after: 234.1 MB.
 
 Unloading 136 unused Assets to reduce memory usage. Loaded Objects now: 3264.
-Total: 3.551200 ms (FindLiveObjects: 0.344000 ms CreateObjectMapping: 0.183600 ms MarkObjects: 1.865800 ms  DeleteObjects: 1.156500 ms)
+Total: 3.373200 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.176200 ms MarkObjects: 1.575400 ms  DeleteObjects: 1.167900 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Assets/Characters/Mayu/MayuAnimController.controller
   artifactKey: Guid(790eb1ab21d436a4797b2d9227f4d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/MayuAnimController.controller using Guid(790eb1ab21d436a4797b2d9227f4d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1e32a8ce274de6f72b248c46ad08c5') in 0.033913 seconds
-  Import took 0.043053 seconds .
+Start importing Assets/Assets/Characters/Mayu/MayuAnimController.controller using Guid(790eb1ab21d436a4797b2d9227f4d1b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc675fcbc5341f2e508e87734b65666') in 0.049311 seconds
+  Import took 0.055768 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 213.309135 seconds.
-  path: Assets/Assets/Characters/Mayu/m_MayuCloak.mat
-  artifactKey: Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/m_MayuCloak.mat using Guid(9b5a69f3dc94bcc4ab9c9fbf3c4b62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1cd1307613c3cf25c358e379c9fd6cf') in 0.072565 seconds
-  Import took 0.077593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Assets/Characters/Mayu/m_MayuMouth.mat
-  artifactKey: Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/m_MayuMouth.mat using Guid(0867a936a85e9ac4ca569692916d055b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485c19540480eb61b0d9d80df6e18ef9') in 0.010280 seconds
-  Import took 0.014305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Assets/Characters/Mayu/m_MayuEyes.mat
-  artifactKey: Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/m_MayuEyes.mat using Guid(ee15615cbcfa536468c2ba9d210a16cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7ae9922821ae2eeabf770b9dee44f1') in 0.017856 seconds
-  Import took 0.022214 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.480592 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx
-  artifactKey: Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx using Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50d2b7f16917d15e7edb4f9feed6ce6') in 0.149454 seconds
-  Import took 0.154015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 67.408739 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Idle_Standing.fbx
+  Time since last request: 170.499365 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx
   artifactKey: Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Idle_Standing.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ebe8487153d92053cae7d540dcf297') in 0.047995 seconds
-  Import took 0.057653 seconds .
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b34c4f23ab6230b2341cda919931500') in 0.189717 seconds
+  Import took 0.195957 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001117 seconds.
+Registered in 0.001005 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.762 seconds
+- Completed reload, in  0.765 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2642 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 235.4 MB.
-System memory in use after: 233.8 MB.
+System memory in use after: 233.7 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3312.
-Total: 3.079700 ms (FindLiveObjects: 0.247200 ms CreateObjectMapping: 0.113000 ms MarkObjects: 1.540900 ms  DeleteObjects: 1.177500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2298.121816 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_To_Standing.fbx
-  artifactKey: Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_To_Standing.fbx using Guid(10361de2a3c58854b8d2db70f0543196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f78477125feeefca0cdd2924e4d01df') in 0.104365 seconds
-  Import took 0.108805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx
-  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bda5bad209a9fa5765f029db21457c') in 0.007176 seconds
-  Import took 0.011003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx
-  artifactKey: Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx using Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a2e663331e1c8c45f85ba37b1f8c04') in 0.040110 seconds
-  Import took 0.049693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx
-  artifactKey: Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx using Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c22367ae8b17633d273c40a765cbaec') in 0.041633 seconds
-  Import took 0.046105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx
-  artifactKey: Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cc7c14bf64db0895ab35251d344b8f') in 0.040091 seconds
-  Import took 0.049911 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx
-  artifactKey: Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx using Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b14830c41423897697d7f972f20c2cdc') in 0.007096 seconds
-  Import took 0.016478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_Idle.fbx
-  artifactKey: Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling_Idle.fbx using Guid(dc5670776d2c8c94c86f97cd0e64c05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed6856e6d1ec3a1862bc3555e6a67a4') in 0.043994 seconds
-  Import took 0.048469 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.792746 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx
-  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752117b9b092512919ac1c85314d10c3') in 0.007512 seconds
-  Import took 0.012193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx
-  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b278e53345ba73e0c166f581a8c9eb56') in 0.007212 seconds
-  Import took 0.011374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx
-  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32ef79831f8be88e12be079318e1647a') in 0.007000 seconds
-  Import took 0.011277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx
-  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427bef5d907fbdbfd12b8b2ec13a7c34') in 0.007142 seconds
-  Import took 0.016330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx
-  artifactKey: Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx using Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3e691bd7775e9850aa8913bc24687d') in 0.006859 seconds
-  Import took 0.010997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx
-  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdd503dac873ff922be7463e837f2d70') in 0.041738 seconds
-  Import took 0.052068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx
-  artifactKey: Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx using Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ecf0a7e9a3e54295583ef49a25a8802') in 0.043158 seconds
-  Import took 0.047283 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling Down.fbx
-  artifactKey: Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Kneeling Down.fbx using Guid(fb2607440de6a8a4285c43e7de6658ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896b38e6b31e658cb1de6c9d90def44e') in 0.043759 seconds
-  Import took 0.048033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Idle.fbx
-  artifactKey: Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Idle.fbx using Guid(1e0191a744e624340aae12f82a190e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36d884a0b85f2cce1810d309ccd7853') in 0.006821 seconds
-  Import took 0.010653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx
-  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752117b9b092512919ac1c85314d10c3') in 0.004069 seconds
-  Import took 0.008020 seconds .
+Total: 3.035100 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.132600 ms MarkObjects: 1.492100 ms  DeleteObjects: 1.145000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
+Registered in 0.001034 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  0.763 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.4 MB.
-System memory in use after: 234.7 MB.
+System memory in use before: 235.4 MB.
+System memory in use after: 233.7 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3316.
-Total: 3.339000 ms (FindLiveObjects: 0.287400 ms CreateObjectMapping: 0.136500 ms MarkObjects: 1.580000 ms  DeleteObjects: 1.334400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.882154 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx
-  artifactKey: Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Walk.fbx using Guid(157bdf2b2c26d6847bd9937e351e2713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663bdc36f7de8521950cd87a0b8c4735') in 0.024625 seconds
-  Import took 0.029090 seconds .
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3315.
+Total: 3.626900 ms (FindLiveObjects: 0.330300 ms CreateObjectMapping: 0.161900 ms MarkObjects: 1.792700 ms  DeleteObjects: 1.340400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.335662 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx
-  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2223649bbddb012968d8634d1d19d45d') in 0.004069 seconds
-  Import took 0.008420 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.015520 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx
-  artifactKey: Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Run.fbx using Guid(65601e70982126d48ba63312c9378a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2223649bbddb012968d8634d1d19d45d') in 0.003824 seconds
-  Import took 0.007887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.333463 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx
-  artifactKey: Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Right.fbx using Guid(250c64582e81234479ae8c876c2e2a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5823b695251d4c912d469b32eeb2196') in 0.092695 seconds
-  Import took 0.097234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.018527 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx
-  artifactKey: Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Quick_Turn_Left.fbx using Guid(83cbf7300c8d50e41966d0b16e7f6169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b44b1dd8b38631e9ad68961d0ee8b16') in 0.056436 seconds
-  Import took 0.066194 seconds .
+  Time since last request: 780.167319 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx
+  artifactKey: Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Falling_Hard.fbx using Guid(5462afd2778421c4d84ede9bdbc084ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461ff29a5d512ef284b2cc624ca72e3f') in 0.021660 seconds
+  Import took 0.037071 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001008 seconds.
+Registered in 0.001025 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.768 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.84 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.4 MB.
-System memory in use after: 234.7 MB.
+System memory in use before: 235.4 MB.
+System memory in use after: 233.8 MB.
 
-Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3320.
-Total: 3.315300 ms (FindLiveObjects: 0.247000 ms CreateObjectMapping: 0.117900 ms MarkObjects: 1.569000 ms  DeleteObjects: 1.380700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.809283 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx
-  artifactKey: Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Alert.fbx using Guid(63c401e2b85d88843a7b7e2283060bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e622fd66a139aa1415033b59f15e76') in 0.024067 seconds
-  Import took 0.028689 seconds .
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3318.
+Total: 3.334000 ms (FindLiveObjects: 0.295700 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.542000 ms  DeleteObjects: 1.353300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.341307 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx
-  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaa3d56e941218bb07a5c56b9bb3b23') in 0.003948 seconds
-  Import took 0.008078 seconds .
+  Time since last request: 568.423385 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Falling Back Death.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Falling Back Death.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75325277edf5aeae16c318e0f46b4721') in 0.033752 seconds
+  Import took 0.045046 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.010589 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx
-  artifactKey: Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_LookingAround.fbx using Guid(03955f9a826c6df4a88a825bdc3a0137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eaa3d56e941218bb07a5c56b9bb3b23') in 0.004138 seconds
-  Import took 0.008211 seconds .
+  Time since last request: 0.003633 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Falling Back Death.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Falling Back Death.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75325277edf5aeae16c318e0f46b4721') in 0.004197 seconds
+  Import took 0.008401 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.601584 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx
-  artifactKey: Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Happy Idle.fbx using Guid(266a0d9aaa112ec4bb601e7b4513ec9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c165ebc15ee763f5013978d0415e5e') in 0.093255 seconds
-  Import took 0.103116 seconds .
+  Time since last request: 14.324629 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60166e5fc95c7f9d04b0fbe4421c8322') in 0.007799 seconds
+  Import took 0.018286 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.511114 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx
-  artifactKey: Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Standing.fbx using Guid(d3124055a7227794c8b7a121e2e9199b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8e9b1a8e590bab5c8e51385e85af81') in 0.053415 seconds
-  Import took 0.057921 seconds .
+  Time since last request: 0.002817 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60166e5fc95c7f9d04b0fbe4421c8322') in 0.004355 seconds
+  Import took 0.008752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.333710 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx
-  artifactKey: Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_Stretch.fbx using Guid(02caa9665383c1d4b88788bef28d1e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf31bcc18819bc8733aec745c98dc34') in 0.057222 seconds
-  Import took 0.061888 seconds .
+  Time since last request: 7.278674 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe256e330241656a6803f9b2f919c9c3') in 0.004441 seconds
+  Import took 0.015128 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.445455 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx
-  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b6bf5e896ee22a38b1bcbfd9edd5fe') in 0.004146 seconds
-  Import took 0.014134 seconds .
+  Time since last request: 0.007607 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe256e330241656a6803f9b2f919c9c3') in 0.004479 seconds
+  Import took 0.008558 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.007268 seconds.
-  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx
-  artifactKey: Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Idle_ToeTap.fbx using Guid(41aba7ee05af59f45918aa126c49bfc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b6bf5e896ee22a38b1bcbfd9edd5fe') in 0.004177 seconds
-  Import took 0.008196 seconds .
+  Time since last request: 32.480985 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx
+  artifactKey: Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Death_FallingBackwards.fbx using Guid(651e7a5f5f49d7d4e9a99ee1a5b7a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b8912381117da585f094bd12e04fc2') in 0.004414 seconds
+  Import took 0.019535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 190.817810 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/falling to roll.fbx
+  artifactKey: Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/falling to roll.fbx using Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35067ec5c33436ead85f01ef92f3a449') in 0.008220 seconds
+  Import took 0.018602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004565 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/falling to roll.fbx
+  artifactKey: Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/falling to roll.fbx using Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35067ec5c33436ead85f01ef92f3a449') in 0.004319 seconds
+  Import took 0.008976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.646329 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Fall_Roll.fbx
+  artifactKey: Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Fall_Roll.fbx using Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e2115f086df2c7c9ab4d85e5790e77') in 0.007506 seconds
+  Import took 0.017432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004457 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Fall_Roll.fbx
+  artifactKey: Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Mayu@Fall_Roll.fbx using Guid(5970825dea8a7694d9f993ff6548ba9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e2115f086df2c7c9ab4d85e5790e77') in 0.004018 seconds
+  Import took 0.008437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.100337 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Getting Up.fbx
+  artifactKey: Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Getting Up.fbx using Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c1eed88155c3f6145db85de03718f7') in 0.008831 seconds
+  Import took 0.018941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001332 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Getting Up.fbx
+  artifactKey: Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Getting Up.fbx using Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c1eed88155c3f6145db85de03718f7') in 0.004712 seconds
+  Import took 0.008690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.668127 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx
+  artifactKey: Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx using Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'debd985d2922bd786ef84ee5871614ad') in 0.008597 seconds
+  Import took 0.013594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.019961 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx
+  artifactKey: Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx using Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc510160e2213b76fb25a4be8b62dbee') in 0.004780 seconds
+  Import took 0.020249 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000994 seconds.
+Registered in 0.001009 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.819 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.4 MB.
-System memory in use after: 234.8 MB.
+System memory in use before: 235.5 MB.
+System memory in use after: 233.8 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3321.
+Total: 3.958500 ms (FindLiveObjects: 0.352600 ms CreateObjectMapping: 0.173500 ms MarkObjects: 1.999700 ms  DeleteObjects: 1.431700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.236362 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx
+  artifactKey: Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Respawn_GetUp.fbx using Guid(8115bfa58fb46ae40b9a7624fc1c630e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af004fb0a85c3fa8214cdee74f9ffc0a') in 0.028388 seconds
+  Import took 0.043965 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001113 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.783 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 235.5 MB.
+System memory in use after: 233.8 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3324.
-Total: 3.218800 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.116700 ms MarkObjects: 1.440700 ms  DeleteObjects: 1.409000 ms)
+Total: 3.580100 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.145700 ms MarkObjects: 1.675200 ms  DeleteObjects: 1.483100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000801 seconds.
+Registered in 0.001031 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  0.786 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 236.5 MB.
-System memory in use after: 234.8 MB.
+System memory in use before: 235.5 MB.
+System memory in use after: 233.8 MB.
 
 Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3327.
-Total: 3.774000 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.168000 ms MarkObjects: 1.730000 ms  DeleteObjects: 1.539300 ms)
+Total: 3.612700 ms (FindLiveObjects: 0.300100 ms CreateObjectMapping: 0.132400 ms MarkObjects: 1.723300 ms  DeleteObjects: 1.455600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1474.811970 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Standing React Small From Headshot (1).fbx
+  artifactKey: Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Standing React Small From Headshot (1).fbx using Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27808462edfd389fcf8be03e17e19f') in 0.035287 seconds
+  Import took 0.046012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001857 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Standing React Small From Headshot (1).fbx
+  artifactKey: Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/_UnsureIfUsing/Standing React Small From Headshot (1).fbx using Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c27808462edfd389fcf8be03e17e19f') in 0.004515 seconds
+  Import took 0.009257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.741861 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Hurt.fbx
+  artifactKey: Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Hurt.fbx using Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa19340222e970f6bbd6c30d9c9b0ce1') in 0.007746 seconds
+  Import took 0.023029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.886418 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Hurt.fbx
+  artifactKey: Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Hurt.fbx using Guid(b730d949f044696458474883be2500dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'face97061f78004c8264e4e0c225830b') in 0.004064 seconds
+  Import took 0.013794 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 112.714502 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx
+  artifactKey: Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jump_Up.fbx using Guid(bf9be2603917e8c4f9adf1781358deaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062383d9a7073b9a6841fb41dba83dc3') in 0.007552 seconds
+  Import took 0.017818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.497505 seconds.
+  path: Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx
+  artifactKey: Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Characters/Mayu/Animations/Mayu@Jumping Down.fbx using Guid(a41a78c02588e2a44972a9bdb8bb4ead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a7d02462b85a03b7647894645d96ec9') in 0.101547 seconds
+  Import took 0.112059 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001040 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.771 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2641 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 236.1 MB.
+System memory in use after: 234.4 MB.
+
+Unloading 130 unused Assets to reduce memory usage. Loaded Objects now: 3331.
+Total: 3.444300 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.120000 ms MarkObjects: 1.563300 ms  DeleteObjects: 1.496600 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
