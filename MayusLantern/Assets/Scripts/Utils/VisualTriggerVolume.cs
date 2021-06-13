@@ -17,9 +17,9 @@ namespace ML.Utils
             Gizmos.color = color;
 
             if (GetComponent<BoxCollider>())
-                Gizmos.DrawCube(Vector3.zero, GetComponent<BoxCollider>().size);
+                Gizmos.DrawCube(GetComponent<BoxCollider>().center, GetComponent<BoxCollider>().size);
             else if (GetComponent<SphereCollider>())
-                Gizmos.DrawSphere(Vector3.zero, GetComponent<SphereCollider>().radius);
+                Gizmos.DrawSphere(GetComponent<SphereCollider>().center, GetComponent<SphereCollider>().radius);
             else
                 return;
         }
