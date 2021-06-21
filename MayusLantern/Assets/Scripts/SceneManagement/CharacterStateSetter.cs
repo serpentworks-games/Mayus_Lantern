@@ -1,6 +1,7 @@
 namespace ML.SceneManagement
 {
     using System;
+    using System.Collections;
     using UnityEngine;
 
     /// <summary>
@@ -22,11 +23,11 @@ namespace ML.SceneManagement
             public float floatValue;
             public int intValue;
 
-            int m_Hash;
+            int hash;
 
-            private void Awake()
+            public void Awake()
             {
-                m_Hash = Animator.StringToHash(paramName);
+                hash = Animator.StringToHash(paramName);
             }
 
             public void SetParam(Animator animator)
@@ -34,16 +35,16 @@ namespace ML.SceneManagement
                 switch (paramType)
                 {
                     case ParamType.Bool:
-                        animator.SetBool(m_Hash, boolValue);
+                        animator.SetBool(hash, boolValue);
                         break;
                     case ParamType.Float:
-                        animator.SetFloat(m_Hash, floatValue);
+                        animator.SetFloat(hash, floatValue);
                         break;
                     case ParamType.Int:
-                        animator.SetInteger(m_Hash, intValue);
+                        animator.SetInteger(hash, intValue);
                         break;
                     case ParamType.Trigger:
-                        animator.SetTrigger(m_Hash);
+                        animator.SetTrigger(hash);
                         break;
                     default:
                         throw new ArgumentOutOfRangeException();
@@ -51,6 +52,61 @@ namespace ML.SceneManagement
                 }
             }
         }
+
+        public bool setCharacterVelocity;
+        public Vector2 characterVelocity;
+
+        public bool setCharacterFacing;
+        public bool faceLeft;
+
+        public Animator animator;
+
+        public bool setState;
+        public string animatorStateName;
+
+        public bool setParams;
+        public ParamSetter[] paramSetters;
+
+        int hashStateName;
+        Coroutine setCharacterStateCoroutine;
+
+        private void Awake()
+        {
+            hashStateName = Animator.StringToHash(animatorStateName);
+
+            for (int i = 0; i < paramSetters.Length; i++)
+            {
+                paramSetters[i].Awake();
+            }
+        }
+        public void SetCharacterState()
+        {
+            if (setCharacterStateCoroutine != null) StopCoroutine(setCharacterStateCoroutine);
+
+            if (setState) animator.Play(hashStateName);
+
+            if (setParams)
+            {
+                for (int i = 0; i < paramSetters.Length; i++)
+                {
+                    paramSetters[i].SetParam(animator);
+                }
+            }
+        }
+
+        public void SetCharacterState(float delay)
+        {
+            if (setCharacterStateCoroutine != null) StopCoroutine(setCharacterStateCoroutine);
+
+            setCharacterStateCoroutine = StartCoroutine(CallWithDelay(delay, SetCharacterState));
+        }
+
+        IEnumerator CallWithDelay(float delay, Action call)
+        {
+            yield return new WaitForSeconds(delay);
+            call();
+        }
+
     }
 
 
