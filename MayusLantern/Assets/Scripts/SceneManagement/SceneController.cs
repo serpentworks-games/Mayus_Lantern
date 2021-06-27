@@ -2,7 +2,7 @@ namespace ML.SceneManagement
 {
     using System;
     using System.Collections;
-    using ML.Player;
+    using ML.Characters.Player;
     using UnityEngine;
     using UnityEngine.SceneManagement;
 

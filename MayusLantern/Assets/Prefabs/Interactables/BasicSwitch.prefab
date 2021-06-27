@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 3389346479758409785}
   - component: {fileID: 4102103696929392499}
   - component: {fileID: 685978117067581376}
+  - component: {fileID: 4461415451872378946}
+  - component: {fileID: 6207254696057095656}
   m_Layer: 16
   m_Name: BasicSwitch
   m_TagString: Untagged
@@ -250,6 +252,78 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   inventoryChecks: []
+--- !u!114 &4461415451872378946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640122410722190797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7065578111370a54197648fecac8fc30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6207254696057095656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640122410722190797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7dc8fefd4d19394ebd04baa582606af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionType: 0
+  isOneShot: 0
+  interactionCoolDown: 0
+  interactionStartDelay: 0
+  loopType: 1
+  duration: 10
+  accelCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  activate: 1
+  OnStartCommand: {fileID: 0}
+  OnStopCommand: {fileID: 0}
+  onStartAudio: {fileID: 0}
+  onEndAudio: {fileID: 0}
+  previewPosition: 0
+  rigidbody: {fileID: 7399239088024054849}
+  start: {x: -0, y: 5, z: 0}
+  end: {x: 0, y: 6, z: 0}
 --- !u!1 &3004550496375993884
 GameObject:
   m_ObjectHideFlags: 0
@@ -10188,6 +10262,33 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7515802911965539854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7190992635984250108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 693003214d9d3ae4fa430116f18f0d89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  axis: {x: 0, y: 1, z: 0}
+  speed: 50
+--- !u!65 &6954074567306465729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196427943266566055}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4417753, y: 4.985751, z: 2.447732}
+  m_Center: {x: 0, y: 2.4709487, z: -0.002978325}
 --- !u!1001 &1691687530289699433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10243,8 +10344,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: SwitchBase
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5386496929816365198, guid: ba33e38fbca1e784dbb503913eec05f4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ba33e38fbca1e784dbb503913eec05f4, type: 3}
+--- !u!1 &8196427943266566055 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7405495660547220942, guid: ba33e38fbca1e784dbb503913eec05f4, type: 3}
+  m_PrefabInstance: {fileID: 1691687530289699433}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &3892692894642150941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2413801069822149748, guid: ba33e38fbca1e784dbb503913eec05f4, type: 3}

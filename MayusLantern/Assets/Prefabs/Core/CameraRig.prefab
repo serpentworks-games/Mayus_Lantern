@@ -766,7 +766,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5470918564563857775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b73d90092e752644c9406fe2cf52a221, type: 3}
+  m_Script: {fileID: 11500000, guid: 45cef243dd16b3b49a7e62f29c5d1bb0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   follow: {fileID: 0}
@@ -775,12 +775,12 @@ MonoBehaviour:
   controllerCamera: {fileID: 5470918564972502434}
   inputChoice: 0
   keyboardAndMouseInvertSettings:
-    invertX: 1
+    invertX: 0
     invertY: 0
   controllerInvertSettings:
     invertX: 0
     invertY: 0
-  allowRuntimeCameraSettingChanges: 1
+  allowRuntimeCameraSettingChanges: 0
 --- !u!1 &5470918564799505977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1597,15 +1597,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2702342631266364245, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.3839388
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2702342631266364245, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2830954
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 2702342631266364245, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.824212
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2702342631266364245, guid: 53f0b7f63271c9f4da1f78fb39e79642, type: 3}
       propertyPath: m_LocalRotation.w
