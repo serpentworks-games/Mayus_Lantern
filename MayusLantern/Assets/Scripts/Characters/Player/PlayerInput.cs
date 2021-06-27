@@ -12,45 +12,34 @@ namespace ML.Characters.Player
 
         protected static PlayerInput s_Instance;
 
-        public bool playerControllerInputBlocked;
+        public bool playerInputBlocked;
 
-        Vector2 m_Movement;
-        Vector2 m_Camera;
-        bool m_Jump, m_Attack, m_Pause, m_ExternalInputBlocked;
+        Vector2 movement;
+        bool jump, attack, pause, externalInputBlocked;
 
         public Vector2 MoveInput
         {
             get
             {
-                if (playerControllerInputBlocked || m_ExternalInputBlocked)
+                if (playerInputBlocked || externalInputBlocked)
                     return Vector2.zero;
-                return m_Movement;
-            }
-        }
-
-        public Vector2 CameraInput
-        {
-            get
-            {
-                if (playerControllerInputBlocked || m_ExternalInputBlocked)
-                    return Vector2.zero;
-                return m_Camera;
+                return movement;
             }
         }
 
         public bool JumpInput
         {
-            get { return m_Jump && !playerControllerInputBlocked && !m_ExternalInputBlocked; }
+            get { return jump && !playerInputBlocked && !externalInputBlocked; }
         }
 
         public bool AttackInput
         {
-            get { return m_Attack && !playerControllerInputBlocked && !m_ExternalInputBlocked; }
+            get { return attack && !playerInputBlocked && !externalInputBlocked; }
         }
 
         public bool Pause
         {
-            get { return m_Pause; }
+            get { return pause; }
         }
 
         WaitForSeconds m_AttackInputWait;
@@ -69,9 +58,8 @@ namespace ML.Characters.Player
 
         private void Update()
         {
-            m_Movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
-            m_Camera.Set(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-            m_Jump = Input.GetButton("Jump");
+            movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+            jump = Input.GetButton("Jump");
 
             if (Input.GetButtonDown("Fire1"))
             {
@@ -81,29 +69,29 @@ namespace ML.Characters.Player
                 m_AttackWaitCoroutine = StartCoroutine(AttackWait());
             }
 
-            m_Pause = Input.GetButtonDown("Pause");
+            pause = Input.GetButtonDown("Pause");
         }
 
         IEnumerator AttackWait()
         {
-            m_Attack = true;
+            attack = true;
             yield return m_AttackInputWait;
-            m_Attack = false;
+            attack = false;
         }
 
         public bool HaveControl()
         {
-            return !m_ExternalInputBlocked;
+            return !externalInputBlocked;
         }
 
         public void ReleaseControl()
         {
-            m_ExternalInputBlocked = true;
+            externalInputBlocked = true;
         }
 
         public void GainControl()
         {
-            m_ExternalInputBlocked = false;
+            externalInputBlocked = false;
         }
 
     }
