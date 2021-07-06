@@ -17,7 +17,7 @@ namespace ML.Core
 
             if (controller == null) return;
 
-            controller.SetCheckpoint(this);
+            controller.SetCheckpoint(this.transform);
         }
 
         private void OnDrawGizmos()

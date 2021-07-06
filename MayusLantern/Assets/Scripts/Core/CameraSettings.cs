@@ -12,22 +12,15 @@ namespace ML.Core
             KeyboardAndMouse, Controller,
         }
 
-        [Serializable]
-        public struct InvertSettings
-        {
-            public bool invertX, invertY;
-        }
+        public Transform follow, lookAt;
+        public CinemachineVirtualCamera keyboardAndMouseCamera, controllerCamera;
+        public Vector3 followOffSet;
+        public float fieldOfView;
 
-        public Transform follow;
-        public Transform lookAt;
-        public CinemachineFreeLook keyboardAndMouseCamera;
-        public CinemachineFreeLook controllerCamera;
         public InputChoice inputChoice;
-        public InvertSettings keyboardAndMouseInvertSettings;
-        public InvertSettings controllerInvertSettings;
         public bool allowRuntimeCameraSettingChanges;
 
-        public CinemachineFreeLook Current
+        public CinemachineVirtualCamera Current
         {
             get
             {
@@ -37,27 +30,27 @@ namespace ML.Core
 
         private void Reset()
         {
-            Transform keyboardAndMouseCameraTransform = transform.Find("KeyboardAndMouseFreeLookRig");
+            Transform keyboardAndMouseCameraTransform = transform.Find("KeyboardAndMouseRig");
             if (keyboardAndMouseCameraTransform != null)
             {
-                keyboardAndMouseCamera = keyboardAndMouseCameraTransform.GetComponent<CinemachineFreeLook>();
+                keyboardAndMouseCamera = keyboardAndMouseCameraTransform.GetComponent<CinemachineVirtualCamera>();
             }
 
-            Transform controllerCameraTranform = transform.Find("ControllerFreeLookRig");
+            Transform controllerCameraTranform = transform.Find("ControllerRig");
             if (controllerCameraTranform != null)
             {
-                controllerCamera = controllerCameraTranform.GetComponent<CinemachineFreeLook>();
+                controllerCamera = controllerCameraTranform.GetComponent<CinemachineVirtualCamera>();
             }
 
-            PlayerController playerController = FindObjectOfType<PlayerController>();
-            if (playerController != null && playerController.name == "Mayu")
+            PlayerController player = FindObjectOfType<PlayerController>();
+            if (player != null)
             {
-                follow = playerController.transform;
+                follow = player.transform;
 
                 lookAt = follow.Find("HeadTarget");
 
-                if (playerController.cameraSettings == null)
-                    playerController.cameraSettings = this;
+                if (player.cameraSettings == null)
+                    player.cameraSettings = this;
             }
         }
 
@@ -76,13 +69,13 @@ namespace ML.Core
         {
             keyboardAndMouseCamera.Follow = follow;
             keyboardAndMouseCamera.LookAt = lookAt;
-            keyboardAndMouseCamera.m_XAxis.m_InvertInput = keyboardAndMouseInvertSettings.invertX;
-            keyboardAndMouseCamera.m_YAxis.m_InvertInput = keyboardAndMouseInvertSettings.invertY;
+            keyboardAndMouseCamera.m_Lens.FieldOfView = fieldOfView;
+            keyboardAndMouseCamera.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = followOffSet;
 
             controllerCamera.Follow = follow;
             controllerCamera.LookAt = lookAt;
-            controllerCamera.m_XAxis.m_InvertInput = controllerInvertSettings.invertX;
-            controllerCamera.m_YAxis.m_InvertInput = controllerInvertSettings.invertY;
+            controllerCamera.m_Lens.FieldOfView = fieldOfView;
+            controllerCamera.GetCinemachineComponent<CinemachineTransposer>().m_FollowOffset = followOffSet;
 
             keyboardAndMouseCamera.Priority = inputChoice == InputChoice.KeyboardAndMouse ? 1 : 0;
             controllerCamera.Priority = inputChoice == InputChoice.Controller ? 1 : 0;
