@@ -15,7 +15,7 @@ namespace ML.Characters.Player
         public bool playerInputBlocked;
 
         Vector2 movement;
-        bool jump, attack, pause, externalInputBlocked;
+        bool jump, attack, pause, interact, externalInputBlocked;
 
         public Vector2 MoveInput
         {
@@ -35,6 +35,11 @@ namespace ML.Characters.Player
         public bool AttackInput
         {
             get { return attack && !playerInputBlocked && !externalInputBlocked; }
+        }
+
+        public bool InteractInput
+        {
+            get { return interact && !playerInputBlocked && !externalInputBlocked; }
         }
 
         public bool Pause
@@ -60,6 +65,7 @@ namespace ML.Characters.Player
         {
             movement.Set(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
             jump = Input.GetButton("Jump");
+            interact = Input.GetButtonDown("Interact");
 
             if (Input.GetButtonDown("Fire1"))
             {
