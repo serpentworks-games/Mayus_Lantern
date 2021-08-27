@@ -1,8 +1,9 @@
 namespace ML.Characters.Enemies
 {
     using UnityEngine;
+    using ML.Core;
 
-    public class AICombat : MonoBehaviour
+    public class AICombat : MonoBehaviour, IAction
     {
         [Header("Can this enemy attack Mayu, alert its neighbours, or do both?")]
         public bool enemyCanAttackMayu = true;
@@ -20,9 +21,11 @@ namespace ML.Characters.Enemies
         public AICombat[] neighboursToAlert = null;
         public float detectionRadius;
         public bool canAlert = false;
+        public bool isAlerted = false;
+        public Transform targetLocation = null;
 
         //MeleeWeapon currentWeapon;
-        GameObject target;
+        [HideInInspector] public GameObject target;
         float timeSinceLastAttack = Mathf.Infinity;
         float timeSinceLastAlert = Mathf.Infinity;
         AIMovement movement;
@@ -37,11 +40,12 @@ namespace ML.Characters.Enemies
         private void Start()
         {
             //EquipWeapon(defaultWeapon);
-            detectionRadius = targetScanner.detectionRadius;
+
         }
 
         public virtual void Update()
         {
+            detectionRadius = targetScanner.detectionRadius;
             UpdateTimers();
             if (target == null) return;
             //TODO: Health Checks
@@ -50,7 +54,7 @@ namespace ML.Characters.Enemies
             {
                 if (canAlert)
                 {
-                    movement.StopMove();
+                    movement.Cancel();
                     AlertBehaviour();
                 }
                 else
@@ -61,13 +65,13 @@ namespace ML.Characters.Enemies
 
             if (enemyCanAttackMayu)
             {
-                if (!GetIsInRange())
+                if (!GetIsInRange(target.transform))
                 {
                     movement.MoveToDestination(target.transform.position);
                 }
                 else
                 {
-                    movement.StopMove();
+                    movement.Cancel();
                     AttackBehaviour();
                 }
             }
@@ -85,27 +89,30 @@ namespace ML.Characters.Enemies
 
         public virtual void Attack(GameObject _target)
         {
+            GetComponent<ActionScheduler>().StartAction(this);
             target = _target;
         }
 
         public virtual bool CanAttack(GameObject _target)
         {
             if (_target == null) return false;
+            if (!movement.CanMoveTo(target.transform.position) && !GetIsInRange(target.transform)) return false;
             Transform targetToTest = _target.transform;
             return targetToTest != null;
         }
 
         public virtual void StopAttackAnim()
         {
-            anim.ResetTrigger("AttackPlayer");
+            anim.ResetTrigger("StartAttack");
             anim.SetTrigger("StopAttack");
         }
 
         void StartAttackAnim()
         {
             anim.ResetTrigger("StopAttack");
-            anim.SetTrigger("AttackPlayer");
+            anim.SetTrigger("StartAttack");
         }
+
         public virtual void AlertBehaviour()
         {
             if (timeSinceLastAlert > timeToStopAlert)
@@ -131,6 +138,7 @@ namespace ML.Characters.Enemies
         public virtual void Alert(GameObject player)
         {
             target = player;
+            isAlerted = true;
         }
 
         public virtual bool CanAlert(GameObject _target)
@@ -143,12 +151,12 @@ namespace ML.Characters.Enemies
         void StartAlertAnim()
         {
             anim.ResetTrigger("StopAlert");
-            anim.SetTrigger("AlertNeighbours");
+            anim.SetTrigger("StartAlert");
         }
 
         void StopAlertAnim()
         {
-            anim.ResetTrigger("AlertNeighbours");
+            anim.ResetTrigger("StartAlert");
             anim.SetTrigger("StopAlert");
         }
 
@@ -157,6 +165,8 @@ namespace ML.Characters.Enemies
             foreach (AICombat neighbour in neighboursToAlert)
             {
                 neighbour.target = target;
+                neighbour.isAlerted = true;
+                neighbour.targetLocation = target.transform;
             }
         }
 
@@ -164,7 +174,7 @@ namespace ML.Characters.Enemies
         {
             foreach (AICombat neighbour in neighboursToAlert)
             {
-                neighbour.CancelAction();
+                neighbour.Cancel();
             }
         }
 
@@ -179,7 +189,7 @@ namespace ML.Characters.Enemies
             return targetScanner.Detect(player, detector, useHeightDifference);
         }
 
-        public virtual void CancelAction()
+        public virtual void Cancel()
         {
             if (enemyCanAlertNeighbours)
             {
@@ -195,11 +205,21 @@ namespace ML.Characters.Enemies
 
         //Equip Weapon
 
-        bool GetIsInRange()
+        public virtual bool GetIsInRange(Transform targetTransform)
         {
-            return Vector3.Distance(transform.position, target.transform.position) < attackRange;
+            return Vector3.Distance(transform.position, targetTransform.position) < attackRange;
         }
 
+        //Allows for runtime changing of the detection radius
+        public virtual void SetDetectionRadius(float radius)
+        {
+            targetScanner.detectionRadius = radius;
+        }
+
+        public virtual float GetScannerRadius()
+        {
+            return targetScanner.detectionRadius;
+        }
 
         //Anim Hit Event
         public virtual void Hit()
@@ -208,9 +228,11 @@ namespace ML.Characters.Enemies
             Debug.Log(transform.name + " is hitting " + target.name);
         }
 
+        //Anim Alert Event
         public virtual void Alert()
         {
-
+            if (target == null) return;
+            Debug.Log(transform.name + " is alerting about " + target.name);
         }
 
 

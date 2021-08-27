@@ -13,14 +13,25 @@ namespace ML.Characters.Enemies
             public float waypointTolerance = 1f;
             public PatrolPath patrolPath = null;
         }
+
+        [System.Serializable]
+        public class AggressionInfo{
+            public float aggroDurationTime = 5f;
+            public float neighbourAggroDistance = 5f;
+        }
+
         public float stunTime = 10f;
         public PatrollingInfo patrolInfo = new PatrollingInfo();
+        public AggressionInfo aggroInfo = new AggressionInfo();
 
         Vector3 guardPosition;
         int currentWayPointIndex = 0;
         float timeSinceArrivedAtWayPoint = Mathf.Infinity;
+
         [HideInInspector] public float timeSinceLastSawPlayer = Mathf.Infinity;
         [HideInInspector] public float timeSinceLastStun = Mathf.Infinity;
+        [HideInInspector] public float timeSinceLastAlert = Mathf.Infinity;
+        [HideInInspector] public float timeSinceLastAggro = Mathf.Infinity;
 
         [HideInInspector] public GameObject player;
         [HideInInspector] public AIMovement movement;
@@ -43,6 +54,7 @@ namespace ML.Characters.Enemies
             timeSinceArrivedAtWayPoint += Time.deltaTime;
             timeSinceLastSawPlayer += Time.deltaTime;
             timeSinceLastStun += Time.deltaTime;
+            timeSinceLastAlert += Time.deltaTime;
         }
 
         public virtual void PatrolBehaviour()
@@ -60,7 +72,7 @@ namespace ML.Characters.Enemies
 
             if (timeSinceArrivedAtWayPoint > patrolInfo.waypointDwellTime)
             {
-                movement.MoveToDestination(nextPosition);
+                movement.StartMoveAction(nextPosition);
             }
         }
 
@@ -82,13 +94,15 @@ namespace ML.Characters.Enemies
 
         public virtual void SuspicionBehaviour()
         {
-            movement.StopMove();
+            movement.Cancel();
         }
 
         public virtual void AttackBehaviour()
         {
             timeSinceLastSawPlayer = 0f;
             combat.Attack(player);
+
+            AggroNearbyEnemies();
         }
 
         public virtual void StunnedBehaviour()
@@ -109,14 +123,35 @@ namespace ML.Characters.Enemies
             return combat.FindTarget(player, transform, player == null);
         }
 
-        private void OnDrawGizmos()
-        {
-            if (patrolInfo.patrolPath == null) return;
-
-            patrolInfo.patrolPath.EditorGizmo();
+        public virtual void GenerateAggro(GameObject target){
+            player = target;
+            timeSinceLastAggro = 0;
         }
 
+        public virtual void AggroNearbyEnemies(){
+            RaycastHit[] hits = Physics.SphereCastAll(transform.position, aggroInfo.neighbourAggroDistance, Vector3.up, 0);
+            foreach (RaycastHit hit in hits)
+            {
+                AICombat neighbour = hit.transform.GetComponent<AICombat>();
+                if(neighbour == null) continue;
+                GenerateAggro(player);
+            }
+        }
 
+        public virtual bool HasAggro(){
+            float distToPlayer = Vector3.Distance(player.transform.position, transform.position);
+            return distToPlayer < combat.GetScannerRadius() || timeSinceLastAggro < aggroInfo.aggroDurationTime;
+        }
 
+        private void OnDrawGizmos()
+        {
+            //Patrol Path Visual
+            if (patrolInfo.patrolPath == null) return;
+            patrolInfo.patrolPath.EditorGizmo();
+
+            //Neighbor Agroo Range Visual
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position, aggroInfo.neighbourAggroDistance);
+        }
     }
 }
