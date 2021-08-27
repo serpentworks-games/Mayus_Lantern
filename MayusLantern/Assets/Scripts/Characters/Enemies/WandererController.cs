@@ -7,8 +7,16 @@ namespace ML.Characters.Enemies
         private void Update()
         {
             //Stunned behaviour
-
-            if (CanSeePlayer() && combat.CanAttack(player))
+            if (combat.isAlerted)
+            {
+                player = combat.target;
+                AttackBehaviour();
+            }
+            else if (HasAggro() && combat.CanAttack(player))
+            {
+                AttackBehaviour();
+            }
+            else if (CanSeePlayer() && combat.CanAttack(player))
             {
                 AttackBehaviour();
             }
