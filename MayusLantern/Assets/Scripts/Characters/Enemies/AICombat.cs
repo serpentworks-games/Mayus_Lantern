@@ -96,7 +96,7 @@ namespace ML.Characters.Enemies
         public virtual bool CanAttack(GameObject _target)
         {
             if (_target == null) return false;
-            if (!movement.CanMoveTo(target.transform.position) && !GetIsInRange(target.transform)) return false;
+            if (!movement.CanMoveTo(_target.transform.position) && !GetIsInRange(_target.transform)) return false;
             Transform targetToTest = _target.transform;
             return targetToTest != null;
         }
