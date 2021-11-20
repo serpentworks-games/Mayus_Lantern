@@ -35,7 +35,17 @@ namespace ML.Characters.Player
         {
             if (player.isGrounded)
             {
-                movement = new Vector3(playerInput.MoveInput.x, 0f, playerInput.MoveInput.y).normalized;
+
+
+                float hMovement = playerInput.MoveInput.x;
+                float vMovement = playerInput.MoveInput.y;
+
+                Vector3 correctedVertical = vMovement * Camera.main.transform.forward;
+                Vector3 correctedHorizontal = hMovement * Camera.main.transform.right;
+
+                Vector3 combinedInput = correctedHorizontal + correctedVertical;
+
+                movement = new Vector3(combinedInput.normalized.x, 0f, combinedInput.normalized.z);
 
                 if (movement != Vector3.zero)
                 {
