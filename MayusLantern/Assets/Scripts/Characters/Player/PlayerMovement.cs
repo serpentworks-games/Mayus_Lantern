@@ -35,8 +35,6 @@ namespace ML.Characters.Player
         {
             if (player.isGrounded)
             {
-
-
                 float hMovement = playerInput.MoveInput.x;
                 float vMovement = playerInput.MoveInput.y;
 
